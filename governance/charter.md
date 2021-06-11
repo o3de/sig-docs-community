@@ -2,7 +2,8 @@
 
 ## Overview of SIG
 
-The Documentation and Community SIG (“the SIG”) maintains the content of the official O3DE website, the publishing infrastructure for the site, API reference building pipelines, and other community resources. Broadly, the team is responsible for:
+The Documentation and Community SIG ("the SIG") maintains the content of the official O3DE website, the publishing infrastructure for the site,
+API reference building pipelines, and other community resources. Broadly, the team is responsible for:
 
 * Contents of the Open 3D Engine user guide
 * Documentation for core Gems that ship with Open 3D Engine, including the Atom renderer
@@ -13,11 +14,9 @@ The Documentation and Community SIG (“the SIG”) maintains the content of the
 
 The SIG is *not* responsible for maintaining and writing all documentation. It's expected that engineers will write appropriate minimum viable documentation for each feature that they submit, though the SIG members may assist with review, editorial, and cleanup after the initial draft.
 
-
 ## Goals
 
 Goals are divided by category.
-
 
 ### Documentation goals
 
@@ -54,21 +53,21 @@ Goals are divided by category.
 * Site versioning
 * Analytics tools and data analysis
 * Non-documentation content:
-    * Blogs
-    * Community engagement
-    * Soliciting contributions and general contrib guidelines (cross-cut)
-    * Content (ex: general announcements, upcoming events) on channels such as O3DE Forums and O3DE Discord
-    * O3DE YouTube Channel videos
+  * Blogs
+  * Community engagement
+  * Soliciting contributions and general contrib guidelines (cross-cut)
+  * Content (ex: general announcements, upcoming events) on channels such as O3DE Forums and O3DE Discord
+  * O3DE YouTube Channel videos
 * Documentation content:
-    * Core O3DE engine
-    * Core O3DE tools (asset building/processing, project config, etc.)
-    * O3DE Editor
-    * Screenshot maintenance (cross-cut)
-    * Official samples, tutorials, and demos
-    * 3rd party shepherding
-    * 3rdparty gem index guidelines
-    * 3rdparty samples/tutorials/demos index guidelines
-    * Generated references (API reference, manpages, etc.)
+  * Core O3DE engine
+  * Core O3DE tools (asset building/processing, project config, etc.)
+  * O3DE Editor
+  * Screenshot maintenance (cross-cut)
+  * Official samples, tutorials, and demos
+  * 3rd party shepherding
+  * 3rdparty gem index guidelines
+  * 3rdparty samples/tutorials/demos index guidelines
+  * Generated references (API reference, manpages, etc.)
 * Community contributions
 * Guidelines for documentation submissions such as minimum viable content, screenshot requirements, etc.
 * Guidelines for minimum viable API reference.
@@ -76,10 +75,10 @@ Goals are divided by category.
 * Guidelines for video content submissions
 * Maintenance of a style guide
 * Review of documentation pull requests.
-    * Maintain and manage the usual SIG group of contributors and approvers for PR review, in addition to a group of approved technical reviewers from other teams.
-    * Pull request review automation and approval workflows (cross-cut)
-    * Standards and guidelines for review process
-    * Editorial support
+  * Maintain and manage the usual SIG group of contributors and approvers for PR review, in addition to a group of approved technical reviewers from other teams.
+  * Pull request review automation and approval workflows (cross-cut)
+  * Standards and guidelines for review process
+  * Editorial support
 * Maintain a public roadmap for SIG work.
 * Manages releases of documentation for bundled versions of O3DE.
 * Track and report on milestones.
