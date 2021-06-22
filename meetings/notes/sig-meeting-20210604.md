@@ -2,7 +2,7 @@
 
 Facilitator and meeting notes: Stephen Tramer
 
-## Agenda
+## Agenda items
 
 ### O3DE docs and site update
 
