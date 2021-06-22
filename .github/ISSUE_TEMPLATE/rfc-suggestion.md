@@ -9,7 +9,7 @@ assignees: ''
 
 ---
 
-# O3DE Suggestion RFC Template
+# Open 3D Foundation D&C SIG Suggestion RFC Template
 
 ## :no_entry: If you submit a pull request to implement a process change without going through the RFC process, it may be closed with a polite request to submit an RFC first. :no_entry:
 

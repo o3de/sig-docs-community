@@ -11,7 +11,7 @@ O3DE cannot work without the help and input from as many of its community member
 | ---- | ---------- | -------- | ------- | ----- | ----- | ---- |
 | 0001 | 2021-05-11 | ---- UTC | N/A | N/A | [Link](sig-docs-community-20210511.md) | N/A |
 | 0002 | 2021-06-04 | ---- UTC | N/A | N/A | [Link](sig-docs-community-20210604.md) | N/A |
-| 0003 | 2021-06-16 | 2100 UTC | #1 | N/A | [Link](sig-docs-community-20210616.md) | N/A |
+| 0003 | 2021-06-16 | 2100 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/1) | N/A | [Link](sig-docs-community-20210616.md) | N/A |
 | 0004 | 2021-07-01 | 1500 UTC | **UPCOMING** | N/A | **UPCOMING** | N/A |
 
 ## Agenda Items

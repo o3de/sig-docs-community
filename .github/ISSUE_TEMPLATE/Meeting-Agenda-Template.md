@@ -17,8 +17,7 @@ The [SIG-Docs Meetings](/meetings/README.md) contains the history past calls, in
 
 ## SIG Updates
 
-**What happened since the last meeting?** - The creator of this issue is responsible for providing a brief summary here to be used as an update
-to start any important discussions.
+**What happened since the last meeting?** - The creator of this issue is responsible for providing a brief summary here to be used as an update to start any important discussions.
 
 ### Open action items
 
@@ -40,12 +39,9 @@ The pre-approved agenda for this meeting is as follows:
 
 ## Suggesting and voting on agenda items
 
-Our community is welcome to suggest and vote on agenda items. If you suggest an item you need to have a designated presenter (normally the issue filer),
-but any community member can vote and isn't required to attend meetings or even participate in further discussion. If you think something is a good idea
-to discuss for the O3DE community, please upvote!
+Our community is welcome to suggest and vote on agenda items. If you suggest an item you need to have a designated presenter (normally the issue filer), but any community member can vote and isn't required to attend meetings or even participate in further discussion. If you think something is a good idea to discuss for the O3DE community, please upvote!
 
-:+1: reactions to proposed agenda items are counted as YEA votes for taking up discussion, and :-1: as NAY. Votes on items don't determine the final agenda,
-but do influence it and are strongly taken into consideration as a representation of what the O3DE community wants to see from the project.
+:+1: reactions to proposed agenda items are counted as YEA votes for taking up discussion, and :-1: as NAY. Votes on items don't determine the final agenda, but do influence it and are strongly taken into consideration as a representation of what the O3DE community wants to see from the project.
 
 ### Agenda item format
 

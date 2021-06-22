@@ -1,21 +1,20 @@
 ---
 name: "RFC: Documentation or Website Feature"
 about: >-
-  File an RFC (Request for Comment) for any _new or significantly improved_ feature of the Open 3D Engine documentation website,
+  File an RFC (Request for Comment) for any new or significantly improved feature of the Open 3D Engine documentation website,
   or features of O3DE related to documentation.
 title: "Proposed RFC: Feature =description="
 labels: 'rfc-feature'
 assignees: ''
 ---
 
-# Open 3D Engine RFC Feature Template
+# Open 3D Engine Documentation / Website RFC Feature Template
 
 ## :no_entry: If you submit a pull request to implement a new feature without going through the RFC process, it may be closed with a polite request to submit an RFC first. :no_entry:
 
 ### When using this template, you do not have to fill out every question below. The questions are there for guidance.
 
-This issue template should be used when filing an RFC related to _new or significantly improved documentation or wesite features_ only. Feature RFCs should not be used for
-addressing bugs or process changes. If you have a proposed process change, please use the **RFC Suggestion** template.
+This issue template should be used when filing an RFC related to _new or significantly improved documentation or wesite features_ only. Feature RFCs should not be used for addressing bugs or process changes. If you have a proposed process change, please use the **RFC Suggestion** template.
 
 A hastily proposed RFC can hurt its chances of acceptance. Low-quality proposals, proposals for previously-rejected features, or those that don't fit into the near-term roadmap may be quickly rejected, demotivating the unprepared contributor. Laying some groundwork ahead of the RFC can make the process smoother.
 
@@ -47,8 +46,7 @@ Why is this important? What are the use cases? What will it do once completed?
 
 ### What are the disadvantages of the feature?
 
-- Explain any disadvantages of this change. Please take counterarguments in good faith and accurately represent any concerns that you or others have shared about
-  the suggested feature.
+- Explain any disadvantages of this change. Please take counterarguments in good faith and accurately represent any concerns that you or others have shared about the suggested feature.
 
 ### Feature design description
 
