@@ -48,8 +48,8 @@ this will cause some confusion in the guidelines.
 ### Action items
 
 * Derek to make PRs:
-  * :white_check_box: https://github.com/o3de/o3de.org/pull/561 - Update to Style Guide
-  * :white_check_box: https://github.com/o3de/o3de.org/pull/563 - PR Checklist
+  * :white_check_mark: https://github.com/o3de/o3de.org/pull/561 - Update to Style Guide
+  * :white_check_mark: https://github.com/o3de/o3de.org/pull/563 - PR Checklist
 
 * Stramer to split style guide:
   * [ ] https://github.com/o3de/o3de.org/issues/562 - Done prior to launch
