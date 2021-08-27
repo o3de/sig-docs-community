@@ -5,7 +5,14 @@ Each Open 3D Engine Special Interest Group (SIG) hosts a regular community meeti
 O3DE cannot work without the help and input from as many of its community members as possible. *You do not need anyone's permission to get involved and contribute to the project.* The #sig-docs-community channel on [O3DE Discord](https://discord.gg/p3padwr58u) is a great place to begin getting involved. Many of our community members regularly share ideas, updates, and resources there. You can also find a number of topics under the [GitHub Discussions area](https://github.com/o3de/foundation/discussions) which need your input.
 
 [Sign up on O3DE Mailing Lists](https://lists.o3de.org/groups) to get notifications for the recurring events.
-## Previous Meetings
+
+## Meetings
+
+| No   | Date       | Time     | Agenda  | Media | Notes | Resources |
+| ---- | ---------- | -------- | ------- | ----- | ----- | ---- |
+| 0001 | 2021-08-27 | 1800 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/5) | N/A | [Link](notes/sig-meeting-20210827.md) | N/A |
+
+## Pre-release meetings 
 
 | No   | Date       | Time     | Agenda  | Media | Notes | Resources |
 | ---- | ---------- | -------- | ------- | ----- | ----- | ---- |
