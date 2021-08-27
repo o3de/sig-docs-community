@@ -22,6 +22,7 @@ Goals are divided by category.
 
 * Handle issues reported with the documentation of O3DE.
 * Produce and manage official blog posts, samples, tutorials, demos, and training.
+  * Includes both written and video materials.
 * Manage official documentation releases.
 * Maintain infrastructure related to the O3DE site such as publishing pipelines and analytics.
 * Maintain documentation build tasks contained in the main O3DE repo, for APIs and other supplementary documentation.
@@ -30,9 +31,11 @@ Goals are divided by category.
 ### Community goals
 
 * Maintain and moderate community communication channels such as forums and Discord.
+* Maintain the official one-way communications from O3DE via YouTube, website, etc.
 * Represent the interests of the community at large in all official O3DE business.
 * Maintain the website UX.
 * Manage contests, events, meetups, conferences, webinars, and other community-focused engagements.
+* Maintain and manage official video resources which are _not_ explicitly documentation.
 
 ## Scope
 
@@ -120,6 +123,8 @@ The SIG will also perform the occasional ad-hoc advisement or other work regardi
 * Localization. Docs and Community are not localization teams, but will provide infrastructure to support localization and may create subprojects to target specific high-priority languages for i18n.
 * RFF production, review, and technical requirements. The docs team helps create templates and guidance based on feedback from governance, and may provide writing or editorial assistance for high-priority internal RFFs.
 * Release notes and changelog. These are materials that should be produced for each release by the Release SIG, although docs will post/host on the O3DE website.
+* Onboarding, training, or resources for learning general programming / mathematics / other material that facilitate the use of a game engine.
+  * The SIG might decide to investigate whether or not this is a useful thing to invest time in at some future point.
 
 ## SIG Links and lists
 
