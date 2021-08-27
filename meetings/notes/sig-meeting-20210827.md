@@ -7,9 +7,9 @@
 Attendees:
 * stramer [Amazon]
 * Chanelle [Amazon]
-* Finite_State [SCB_GameDesign]
+* Finite_State 
 * Liv [AWS]
-* JT [SCB]
+* JT [SCB_GameDesign]
 * Pinfel
 * Will Hayward [Amazon]
 
