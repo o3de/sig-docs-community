@@ -25,3 +25,4 @@ Some notes:
 | **Project Name** | **Proposer** | **Description** | **In progress** | **Approved** | **Owner** |
 |--|--|--|--|--|--|
 | Example | @sptramer | Just an example. | :x: | :x: | |
+| Lua Documentation | @FiniteStateGit | Review current Lua documentation, re-write of API reference. | :x: | :x: | |
