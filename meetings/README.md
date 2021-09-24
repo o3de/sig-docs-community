@@ -10,9 +10,12 @@ O3DE cannot work without the help and input from as many of its community member
 
 | No   | Date       | Time     | Agenda  | Media | Notes | Resources |
 | ---- | ---------- | -------- | ------- | ----- | ----- | ---- |
-| 0001 | 2021-08-27 | 1800 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/5) | N/A | [Link](notes/sig-meeting-20210827.md) | N/A |
+| 0001 | 2021-08-27 | 1800 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/5)  | N/A | [Link](notes/sig-meeting-20210827.md) | N/A |
+| 0002 | 2021-09-22 | 1600 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/13) | N/A | [Link](notes/sig-meeting-20210922.md) | N/A |
 
-## Pre-release meetings 
+## Pre-release meetings
+
+Preserved for posterity. Thanks to everyone who helped Open 3D Engine launch!
 
 | No   | Date       | Time     | Agenda  | Media | Notes | Resources |
 | ---- | ---------- | -------- | ------- | ----- | ----- | ---- |
