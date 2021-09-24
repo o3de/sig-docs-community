@@ -42,7 +42,7 @@ Goals are divided by category.
 * Sets the standards for feature documentation and provides clear paths for docs contribution.
 * Establishes, coordinates, and maintains documentation review processes including the participation of other SIGs in technical review.
 * Maintains the Open 3D Engine website's infrastructure, tooling, and analytics.
-* Responsible for maintaining core content and UX for the site.
+* Responsible for maintaining core content of the website.
 * Maintains the official samples, tutorials, and demos for Open 3D Engine.
 * Assist in the submission of 3rd party Open 3D Engine components for indexing.
 * Creates subprojects or sub-SIGs to handle specific parts of the Open 3D Engine documentation and community resources as necessary.
@@ -50,10 +50,7 @@ Goals are divided by category.
 
 ## In scope
 
-* O3DE Website
-* Site UX
-* Site deployment and build pipelines
-* Site versioning
+* Website documentation versioning
 * Analytics tools and data analysis
 * Non-documentation content:
   * Blogs
@@ -63,6 +60,7 @@ Goals are divided by category.
   * O3DE YouTube Channel videos
 * Documentation content:
   * Core O3DE engine
+  * Atom renderer
   * Core O3DE tools (asset building/processing, project config, etc.)
   * O3DE Editor
   * Screenshot maintenance (cross-cut)
@@ -76,7 +74,7 @@ Goals are divided by category.
 * Guidelines for minimum viable API reference.
 * Guidelines for manpages or other standalone tools documentation.
 * Guidelines for video content submissions
-* Maintenance of a style guide
+* Maintenance of a documentation style guide
 * Review of documentation pull requests.
   * Maintain and manage the usual SIG group of contributors and approvers for PR review, in addition to a group of approved technical reviewers from other teams.
   * Pull request review automation and approval workflows (cross-cut)
