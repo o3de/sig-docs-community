@@ -13,7 +13,7 @@ assignees: ''
 * **Moderator:** Name
 * **Note Taker** Name
 
-The [SIG-Docs Meetings](/meetings/README.md) contains the history past calls, including a link to the agenda, recording, notes, and resources.
+The [SIG-Docs Meetings](https://github.com/o3de/sig-docs-community/blob/main/meetings/README.md) contains the history past calls, including a link to the agenda, recording, notes, and resources.
 
 ## SIG Updates
 
