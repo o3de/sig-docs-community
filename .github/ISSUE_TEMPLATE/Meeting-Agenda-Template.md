@@ -1,17 +1,17 @@
 ---
 name: 'Meeting Agenda: Create New'
 about: Use this template to create a new meeting agenda.
-title: Proposed SIG-Docs meeting agenda for MMMM-DD-YY
+title: Proposed SIG-Docs meeting agenda for YYYY-MM-DD
 labels: mtg-agenda
 assignees: ''
 ---
 
 ## Meeting Details
 
-* **Date/Time:** Month Date, Year @ XX:XXpm UTC / XX:XXpm ET
+* **Date/Time:** Month Date, Year @ XXXX UTC / XX:XX\[am|pm\] PT 
 * **Location:** [Discord SIG-Docs Voice Room](https://discord.gg/p3padwr58u)
 * **Moderator:** Name
-* **Note Taker** Name
+* **Note Taker:** Name
 
 The [SIG-Docs Meetings](https://github.com/o3de/sig-docs-community/blob/main/meetings/README.md) contains the history past calls, including a link to the agenda, recording, notes, and resources.
 
