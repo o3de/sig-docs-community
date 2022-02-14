@@ -58,6 +58,10 @@ Why is this important? What are the use cases? What will it do once completed?
 - Include any required integrations between external services (such as Discord or GitHub).
 - Include information on which parts of the O3DE source need to be touched to enable this feature as currently designed.
 
+### Scope of work
+
+Include an estimation of the scope of work, so the SIG can determine if it can be reduced to a single issue (or small set of issues) an individual can perform, or if it needs to be a coordinated effort as an official SIG project.
+
 ### Are there any alternatives to this feature?
 
 - Provide any other designs that have been considered. Explain what the impact might be of not doing this.

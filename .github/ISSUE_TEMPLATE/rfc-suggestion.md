@@ -63,6 +63,10 @@ Single paragraph explanation of the suggestion
 
 - Explain how this suggestion will be work within the O3DE project.
 
+### Scope of work
+
+Include an estimation of the scope of work, so the SIG can determine if it can be reduced to a single issue (or small set of issues) an individual can perform, or if it needs to be a coordinated effort as an official SIG project.
+
 ### Are there any alternatives to this suggestion?
 
 - Provide any other alternative ways that have been considered. 
