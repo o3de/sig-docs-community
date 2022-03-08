@@ -1,6 +1,6 @@
 ---
 linkTitle: Component Name
-title: \[Component Name] Component
+title: [Component Name] Component
 description: The [component name], which does [function], is provided by the [Gem name] in Open 3D Engine (O3DE). # Example
 weight: 200 # (Optional) Example
 toc: true
@@ -38,7 +38,7 @@ If you use this section, then delete the other Properties section. -->
 
 ![[component name] interface](/images/<path-to-images>)
 
-| Property | Description | Value | default |
+| Property | Description | Value | Default |
 | - | - | - | - |
 |   |   |   |   |
 |   |   |   |   |
@@ -108,7 +108,7 @@ If you use this section, then delete the other Properties section. -->
 
 <!-- (Optional) Example: "Use the following request functions with the <Request EBus name> EBus interface to communicate with <component name> in your game." -->
 
-| Request Name | Description | Parameter | Return | Scriptable |
+| Method Name | Description | Parameter | Return | Scriptable |
 | - | - | - | - | - |
 |   |   |   |   |   |
 |   |   |   |   |   |
@@ -118,7 +118,7 @@ If you use this section, then delete the other Properties section. -->
 
 <!-- (Optional) Example: "Use the following notification functions with the <Notification EBus name> EBus interface to communicate with <component name> in your game." -->
 
-| Request Name | Description | Parameter | Return | Scriptable |
+| Method Name | Description | Parameter | Return | Scriptable |
 | - | - | - | - | - |
 |   |   |   |   |   |
 |   |   |   |   |   |
