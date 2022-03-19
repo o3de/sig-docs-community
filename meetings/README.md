@@ -14,6 +14,7 @@ O3DE cannot work without the help and input from as many of its community member
 | 0002 | 2021-09-22 | 1600 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/13) | N/A | [Link](notes/sig-meeting-20210922.md) | N/A |
 | 0003 | 2021-10-11 | 2000 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/15) | N/A | [Link](notes/sig-meeting-20211011.md) | N/A |
 | 0004 | 2022-02-08 | 1700 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/25) | N/A | [Link](notes/sig-meeting-20220208.md) | N/A |
+| 0005 | 2022-03-15 | 1900 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/35) | N/A | [Link](notes/sig-meeting-20220315.md) | N/A |
 
 ## Pre-release meetings
 
@@ -32,7 +33,7 @@ You can find a link to the proposed agenda for the next call in the table below.
 
 ## General Resources
 
-* [Meeting notes template](TEMPLATE.md)
+* [Meeting notes template](notes/TEMPLATE.md)
 * [O3DE Resources](https://o3de.github.io/o3de/foundation) for additional information related to any SIG in O3DE.
 
 ## Licensing
