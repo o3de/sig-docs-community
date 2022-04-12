@@ -9,7 +9,7 @@
 
 ## SIG Updates
 
-* `main` / `development` split is now live, @sptramer)
+* `main` / `development` split is now live.
   * **Action Item:** @stramer will update the contributor guide.
 * Preparation for release 22.05.0
   * **Proposed:** Additional SIG meeting on 4/26 for release preparation and to handle any additional business.
