@@ -6,12 +6,12 @@ This is the tracking list for proposed, open, and accepted RFCs for sig-docs-com
 
 | Discussion | Summary |
 |------------|---------|
-| https://github.com/o3de/sig-docs-community/discussions/46 | Website versioning for different releases of O3DE, including better visibility and maintenance policies around the `development` branch. |
 
 ## Open
 
 | RFC | Summary |
 |-----|---------|
+| https://github.com/o3de/sig-docs-community/issues/54 | Website versioning for different releases of O3DE, including better visibility and maintenance policies around the `development` branch. |
 | https://github.com/o3de/sig-docs-community/issues/43 | Assignment of O3DE issues to `sig/docs-community`; Without a global triage there needs to be a formal process for SIGs to follow. **NOTE:** Gavin may have taken over the global sync, which means this RFC may no longer be needed. |
 | https://github.com/o3de/sig-docs-community/issues/40 | Feature grid requested by the Linux Foundation, supplemental docs edition. |
 
