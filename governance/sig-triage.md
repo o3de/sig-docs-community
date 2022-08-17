@@ -24,19 +24,13 @@ We strongly recommend continuing the following practice until reviewers can be a
    
    Most issues which come to sig-docs-community via the o3de repo have already been triaged by an engineering SIG. During cross-SIG triage (or under some individual SIG discretion) the `sig/docs-community` label is applied to issues where docs would be a stakeholder. For these tickets, it should be enough to _leave a comment_ and, if necessary, create a corresponding issue on `o3de/o3de.org`.
 
-## Current issue assignment process
+## Check O3DE PRs
 
-Currently, issue assignment is done _live_ in triage meetings. We recommend putting infrastructure in place so that reviews can be load-balanced appropriately among SIG members, but until that time, round-robin live assignment has worked reasonably well.
+While PRs **should not** be assigned in triage, the SIG should be aware of PR activity on o3de/o3de which may require review from a sig-docs-community reviewer or maintainer. Look through issues on o3de/o3de in pull request which require validation from docs. ([Link](https://github.com/o3de/o3de/pulls?q=is%3Apr+is%3Aopen+label%3Asig%2Fdocs-community))
 
-1. Look through issues on o3de/o3de.org in pull request which do not have the required number of reviewers. ([Link](https://github.com/o3de/o3de.org/pulls?q=is%3Apr+is%3Aopen+review%3Arequired))
+These issues are rare, but do show up! When they do, they tend to go unnoticed by the SIG due to lack of cross-communication, so it's useful to check during triage/PR assignment to see if there are any open PRs on o3de which require docs signoff. Some situations where docs may need to be involved are:
 
-    Assign any present member of the SIG who volunteers; In the absence of volunteers, the PR may remain without the number of designated reviewers assigned, provided that there is at least _one_ assigned reviewer, and the docs reviewers team is assigned as a reviewer.
-
-2. Look through issues on o3de/o3de in pull request which require validation from docs. ([Link](https://github.com/o3de/o3de/pulls?q=is%3Apr+is%3Aopen+label%3Asig%2Fdocs-community))
-
-    These issues are rare, but do show up! When they do, they tend to go unnoticed by the SIG due to lack of cross-communication, so it's useful to check during triage/PR assignment to see if there are any open PRs on o3de which require docs signoff. Some situations where docs may need to be involved are:
-
-    * Tooltip text
-    * Error messages
-    * Links to the website
-    * README or other supplemental information
+ * Tooltip text
+ * Error messages
+ * Links to the website
+ * README or other supplemental information
