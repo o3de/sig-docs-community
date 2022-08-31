@@ -5,10 +5,6 @@ Unlike many SIGs, sig-docs-community is "crosscutting" (a stakeholder SIG in alm
 * Triage of issues in o3de/o3de.org which have not yet gone through a triage process
 * Triage of issues in o3de/o3de which are assigned a `sig/docs-community` label.
 
-We strongly recommend continuing the following practice until reviewers can be appropriately auto-assigned:
-
-* Look through open pull requests on o3de/o3de.org and o3de/o3de to identify reviewers/maintainers who are able to perform review to meet the 2-review threshold for merge.
-
 ## Current triage process
 
 1. Check issues on `o3de/o3de.org` with the `needs-triage` label. ([Link](https://github.com/o3de/o3de.org/issues?q=is%3Aissue+is%3Aopen+label%3Aneeds-triage+-label%3Akind%2Fwebsite))
