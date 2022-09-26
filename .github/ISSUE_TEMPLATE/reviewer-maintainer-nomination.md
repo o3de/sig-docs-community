@@ -23,7 +23,7 @@ For more on the general requirements of Reviewer and Maintainer roles, read our 
   * Contributions to the Atom Guide, User Guide, Welcome Guide, or Tutorials sections of https://o3de.org/docs
   * High-quality error messages, tooltips, UX text, or API documentation submitted to https://github.com/o3de/o3de involving approval of
     at least one sig-docs-community reviewer.
-* [ ] 2+ Reviewers or Maintainers of the Documentation and Community SIG.
+* [ ] 2+ Reviewers or Maintainers of the Documentation and Community SIG approve the nomination.
 
 **Maintaining status:** 4+ Pull Requests reviewed per month, or as-assigned. Light loads of PRs relax these requirements.
 
