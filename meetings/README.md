@@ -20,6 +20,8 @@ O3DE cannot work without the help and input from as many of its community member
 | 0008 | 2022-05-17 | 1900 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/41) | N/A | N/A | N/A |
 | 0009 | 2022-06-14 | 1900 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/42) | N/A | [On Agenda](https://github.com/o3de/sig-docs-community/issues/42) | N/A |
 | 0010 | 2022-07-12 | 1900 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/44) | N/A | [Link](notes/sig-meeting-20220712.md) | N/A |
+| 0011 | 2022-08-09 | 1800 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/45) | N/A | N/A | N/A |
+| 0012 | 2022-08-23 | 1730 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/58) | N/A | [On Agenda](https://github.com/o3de/sig-docs-community/issues/58) | N/A |
 
 
 ## Pre-release meetings
