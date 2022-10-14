@@ -12,6 +12,7 @@ This is the tracking list for proposed, open, and accepted RFCs for sig-docs-com
 | RFC | Summary |
 |-----|---------|
 | https://github.com/o3de/sig-docs-community/issues/64 | Feature grid requested by the Linux Foundation, supplemental docs edition. |
+| https://github.com/o3de/sig-docs-community/issues/61 | Access control and ownership of o3de/o3de.org. |
 | https://github.com/o3de/sig-docs-community/issues/43 | Assignment of O3DE issues to `sig/docs-community`; Without a global triage there needs to be a formal process for SIGs to follow. **NOTE:** Gavin may have taken over the global sync, which means this RFC may no longer be needed. |
 
 ## Accepted 
