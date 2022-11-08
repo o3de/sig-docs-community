@@ -23,3 +23,5 @@ This section is a running list of RFCs that have been accepted by the SIG.
 |-----|---------|
 | https://github.com/o3de/sig-docs-community/issues/32 | Separate `main` and `development` branches of o3de.org to reflect different product states and to prepare for website versioning. |
 | https://github.com/o3de/sig-docs-community/issues/8 | Accepting SIG charter. |
+| https://github.com/o3de/sig-docs-community/issues/64 | Documentation health in each important feature area needs to be reported in some way for the O3DE feature grid. This RFC covers the column extensions and terminology used by sig-docs-community for reporting on the state of documentation in a way that aligns with how SIGs report on the state of their features to the TSC, TAC, and Governing Board. |
+| https://github.com/o3de/sig-docs-community/issues/61 | This RFC is to establish a system where we can separate out different maintainers and owners of the o3de.org website. |
