@@ -8,30 +8,34 @@ O3DE cannot work without the help and input from as many of its community member
 
 ## Meetings
 
-| No   | Date       | Time     | Agenda  | Media | Notes | Resources |
-| ---- | ---------- | -------- | ------- | ----- | ----- | ---- |
-| 0001 | 2021-08-27 | 1800 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/5)  | N/A | [Link](notes/sig-meeting-20210827.md) | N/A |
-| 0002 | 2021-09-22 | 1600 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/13) | N/A | [Link](notes/sig-meeting-20210922.md) | N/A |
-| 0003 | 2021-10-11 | 2000 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/15) | N/A | [Link](notes/sig-meeting-20211011.md) | N/A |
-| 0004 | 2022-02-08 | 1700 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/25) | N/A | [Link](notes/sig-meeting-20220208.md) | N/A |
-| 0005 | 2022-03-15 | 1900 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/35) | N/A | [Link](notes/sig-meeting-20220315.md) | N/A |
-| 0006 | 2022-04-12 | 1900 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/38) | N/A | [Link](notes/sig-meeting-20220412.md) | N/A |
-| 0007 | 2022-04-26 | 1900 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/39) | N/A | N/A | N/A |
-| 0008 | 2022-05-17 | 1900 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/41) | N/A | N/A | N/A |
-| 0009 | 2022-06-14 | 1900 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/42) | N/A | [On Agenda](https://github.com/o3de/sig-docs-community/issues/42) | N/A |
-| 0010 | 2022-07-12 | 1900 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/44) | N/A | [Link](notes/sig-meeting-20220712.md) | N/A |
+| Date       | Agenda  | Notes |
+| ---------- | ------- | ----- |
+| 2021-08-27 | [Link](https://github.com/o3de/sig-docs-community/issues/5)  | [Link](notes/sig-meeting-20210827.md) |
+| 2021-09-22 | [Link](https://github.com/o3de/sig-docs-community/issues/13) | [Link](notes/sig-meeting-20210922.md) |
+| 2021-10-11 | [Link](https://github.com/o3de/sig-docs-community/issues/15) | [Link](notes/sig-meeting-20211011.md) |
+| 2022-02-08 | [Link](https://github.com/o3de/sig-docs-community/issues/25) | [Link](notes/sig-meeting-20220208.md) |
+| 2022-03-15 | [Link](https://github.com/o3de/sig-docs-community/issues/35) | [Link](notes/sig-meeting-20220315.md) |
+| 2022-04-12 | [Link](https://github.com/o3de/sig-docs-community/issues/38) | [Link](notes/sig-meeting-20220412.md) |
+| 2022-04-26 | [Link](https://github.com/o3de/sig-docs-community/issues/39) | N/A |
+| 2022-05-17 | [Link](https://github.com/o3de/sig-docs-community/issues/41) | N/A |
+| 2022-06-14 | [Link](https://github.com/o3de/sig-docs-community/issues/42) | [On Agenda](https://github.com/o3de/sig-docs-community/issues/42) |
+| 2022-07-12 | [Link](https://github.com/o3de/sig-docs-community/issues/44) | [Link](notes/sig-meeting-20220712.md) |
+| 2022-09-13 | [Link](https://github.com/o3de/sig-docs-community/issues/60) | N/A  |
+| 2022-09-27 | [Link](https://github.com/o3de/sig-docs-community/issues/63) | [On Agenda](https://github.com/o3de/sig-docs-community/issues/63#issuecomment-1259931430) |
+| 2022-10-18 | [Link](https://github.com/o3de/sig-docs-community/issues/66) | [On Agenda](https://github.com/o3de/sig-docs-community/issues/66#issuecomment-1286035611) |
+
 
 
 ## Pre-release meetings
 
 Preserved for posterity. Thanks to everyone who helped Open 3D Engine launch!
 
-| No   | Date       | Time     | Agenda  | Media | Notes | Resources |
-| ---- | ---------- | -------- | ------- | ----- | ----- | ---- |
-| 0001 | 2021-05-11 | ---- UTC | N/A | N/A | [Link](notes/sig-meeting-20210511.md) | N/A |
-| 0002 | 2021-06-04 | ---- UTC | N/A | N/A | [Link](notes/sig-meeting-20210604.md) | N/A |
-| 0003 | 2021-06-16 | 2100 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/1) | N/A | [Link](notes/sig-meeting-20210616.md) | N/A |
-| 0004 | 2021-07-01 | 1500 UTC | [Link](https://github.com/o3de/sig-docs-community/issues/3) | N/A | [Link](notes/sig-meeting-20210701.md) | N/A |
+| Date       | Agenda  | Notes |
+| ---------- | ------- | ----- |
+| 2021-05-11 | N/A | [Link](notes/sig-meeting-20210511.md) |
+| 2021-06-04 | N/A | [Link](notes/sig-meeting-20210604.md) |
+| 2021-06-16 | [Link](https://github.com/o3de/sig-docs-community/issues/1) | [Link](notes/sig-meeting-20210616.md) |
+| 2021-07-01 | [Link](https://github.com/o3de/sig-docs-community/issues/3) | [Link](notes/sig-meeting-20210701.md) |
 
 ## Agenda Items
 
