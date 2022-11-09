@@ -26,6 +26,7 @@ O3DE cannot work without the help and input from as many of its community member
 | 2022-11-08 | [Link](https://github.com/o3de/sig-docs-community/issues/68) | [On Agenda](https://github.com/o3de/sig-docs-community/issues/68#issuecomment-1307737835) |
 
 
+
 ## Pre-release meetings
 
 Preserved for posterity. Thanks to everyone who helped Open 3D Engine launch!
