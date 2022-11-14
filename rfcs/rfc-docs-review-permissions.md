@@ -117,3 +117,5 @@ O3DE documentation and for the growing community of contributors to `o3de.org`.
 If approved, `sig-docs-community` can explore, test, and implement a solution that enforces the proposed required reviewers for 
 the `o3de.org` repo. As this directly involves members of other SIGs who may be technical reviewers, it's necessary to get their 
 input. If necessary, the `sig-docs-community` can coordinate with other SIGs to establish the team of technical reviewers.
+Because members of the O3DE community have already regularly acted as technical reviewers on PRs relevant 
+to their expertise, this RFC does not shift any workloads. It simply provides clarification on ownership of PR reviews.
