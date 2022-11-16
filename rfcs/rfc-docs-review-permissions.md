@@ -20,9 +20,8 @@ This RFC proposes a solution to better enforce the requirement for one docs revi
 
 *Why is this important?*
 
-Requiring a docs reviewer and a technical reviewer can ensure that incoming PRs for O3DE Documentation is reviewed by the 
-appropriate people. Furthermore, limiting the reviewers to one docs reviewer and one technical reviewer at minimum can ensure 
-efficient use of resources (reviewers). 
+Requiring a docs reviewer and a technical reviewer can ensure that incoming PRs for O3DE Documentation is reviewed by people with relevant expertise. Furthermore, limiting the reviewers to one docs reviewer and one technical reviewer at minimum can ensure 
+efficient use of resources (reviewers). For more information on these roles, refer to sig-docs-community's [Nomination Guidelines](https://github.com/o3de/sig-docs-community/blob/main/governance/reviewers-maintainers.md).
 
 *What are the use cases for this suggestion?*
 
