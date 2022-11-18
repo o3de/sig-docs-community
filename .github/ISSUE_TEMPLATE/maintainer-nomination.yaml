@@ -1,0 +1,58 @@
+name: Maintainer Nomination Template
+description: Nominate yourself or someone else as a Documentaty & Community SIG maintainer.
+title: 'SIG Maintainer Nomination: <username>'
+labels: nomination/sig-maintainer
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The Documentation and Community SIG maintains several reviewer roles requiring SIG approval - this nomination form is for serving as a _sig-docs-community maintainer_, responsible for reviewing contributions to `o3de.org/docs`. Maintainers are expected to:
+
+        * Serve as a "trusted reviewer", who has shown continued excellence in their contributions to the SIG - whether as a reviewer, contributor, or through participation in SIG events.
+        * 8+ Pull Requests reviewed per month. Not meeting this requirement results in reduction to Reviewer status.
+
+        Maintainers have no extra roles or responsibilities - they effectively serve as our _most trusted reviewers_ who
+        have shown dedication to the SIG and quality work. Maintainers are _encouraged_ to:
+
+        * Participate regularly in sig-docs-community RFCs, or other O3DE project RFCs needing comments from sig-docs-community.
+        * Serve in more than one reviewer group for the SIG.
+        * Attend SIG meetings and triages.
+
+        For more on the general requirements of Reviewer and Maintainer roles, read our [Community Membership](https://github.com/o3de/community/blob/main/community-membership.md) information.
+        
+        **Maintaining status:** 8+ Pull Requests reviewed per month. Not meeting this requirement results in reduction to Reviewer status. Maintainers are encouraged to attend SIG triage and other regular meetings, but are not required to. 
+
+        *Supporters of this nomination should comment in this issue.*
+  - type: input
+    id: username
+    attributes:
+      label: Nominee GitHub user name
+      placeholder: username
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Link to relevant pull requests or comments that demonstrate meeting the requirements.
+      placeholder: |
+        * <links to relevant pull requests or comments>
+        * ...
+    validations:
+      required: true
+  - type: textarea
+    id: information
+    attributes:
+      label: Support statement 
+      description: Include a brief statement about why you support this nomination. For maintainer nominations, this is not optional.
+    validations:
+      required: true
+  - type: checkboxes
+    id: approvals
+    attributes:
+      label: '**BOXES TO BE CHECKED NOMINATION REVIEW**'
+      options:
+        - label: Has been a Reviewer for the SIG (docs, community, or website) for 2+ months.
+        - label: 12+ reviewed Pull Requests in the previous 2 months. Under light PR load, has been a reviewer for a minimum of 3 months.
+        - label: 2+ Documentation and Community SIG Maintainers who support promotion. In the absence of enough maintainers, chairs will promote.
+
+
