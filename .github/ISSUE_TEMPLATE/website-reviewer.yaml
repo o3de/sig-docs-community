@@ -1,0 +1,42 @@
+name: Website Reviewer Nomination Template
+description: Nominate yourself or someone else to become a website reviewer.
+title: 'Website Reviewer Nomination: <username>'
+labels: nomination/website-reviewer
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The Documentation and Community SIG maintains several reviewer roles requiring SIG approval - this nomination form is for serving as a _website reviewer_, responsible for reviewing contributions that add layouts, templates, improve functionality, or change the appearance of o3de.org in some way. Responsibilities include:
+
+        * Review changes to layouts, partials, and any website javascript submissions.
+        
+        **Maintaing status:** <???>
+
+        For more on the general requirements of Reviewer roles, read our [Community Membership](https://github.com/o3de/community/blob/main/community-membership.md) information.
+  - type: input
+    id: username
+    attributes:
+      label: Nominee GitHub user name
+      placeholder: username
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Link to relevant pull requests or comments that demonstrate meeting the requirements.
+      placeholder: |
+        * <links to relevant pull requests or comments>
+        * ...
+    validations:
+      required: true
+  - type: textarea
+    id: information
+    attributes:
+      label: Support statement  (Optional)
+      description: If you'd like, include a brief statement about why you support this nomination.
+  - type: checkboxes
+    id: approvals
+    attributes:
+      label: '**BOXES TO BE CHECKED NOMINATION REVIEW**'
+      options:
+        - label: <???>
