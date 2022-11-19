@@ -1,0 +1,44 @@
+name: Community Reviewer Nomination Template
+description: Nominate yourself or someone else to become a community reviewer.
+title: 'Community Reviewer Nomination: <username>'
+labels: nomination/community-reviewer
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The Documentation and Community SIG maintains several reviewer roles requiring SIG approval - this nomination form is for serving as a _community reviewer_, responsible for reviewing contributions to `o3de.org/community`, `o3de.org/blogs`, `o3de.org/docs/contributing`, and the `o3de/community` repo. Community reviewers are expected to:
+
+        * Assist in the review of blogs and other community-related content.
+        * Help surface and guide discussion for `o3de/community` issues.
+        * <???>
+        
+        **Maintaing status:** <???>
+
+        For more on the general requirements of Reviewer roles, read our [Community Membership](https://github.com/o3de/community/blob/main/community-membership.md) information.
+  - type: input
+    id: username
+    attributes:
+      label: Nominee GitHub user name
+      placeholder: username
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Link to relevant pull requests or comments that demonstrate meeting the requirements.
+      placeholder: |
+        * <links to relevant pull requests or comments>
+        * ...
+    validations:
+      required: true
+  - type: textarea
+    id: information
+    attributes:
+      label: Support statement  (Optional)
+      description: If you'd like, include a brief statement about why you support this nomination.
+  - type: checkboxes
+    id: approvals
+    attributes:
+      label: '**BOXES TO BE CHECKED NOMINATION REVIEW**'
+      options:
+        - label: <???>
