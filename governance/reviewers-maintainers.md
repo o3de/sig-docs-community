@@ -2,11 +2,10 @@
 
 The Documentation and Community SIG maintains the following reviewer pools:
 
-* **Documentation Reviewer** - Responsible for reviewing documentation content to `o3de.org`, or conducting reviews of certain `o3de` in-product documentation elements.
+* [**Documentation Reviewer**](/.github/ISSUE_TEMPLATE/docs-reviewer-nomination.yaml) - Responsible for reviewing documentation content to `o3de.org`, or conducting reviews of certain `o3de` in-product documentation elements.
 * **Community Reviewer** - Responsible for reviewing community materials, including contributor guides and blogs.
 
-We also have maintainers, as other SIGs do. Documentation and Community maintainers are reviewers who have been elevated from the documentation or community
-reviewer pools to take on additional responsibility, and serve as trusted sources of guidance.
+We also have [maintainers](/.github/ISSUE_TEMPLATE/maintainer-nomination.yaml). Documentation and Community maintainers are reviewers who have been elevated from the documentation or community reviewer pools to take on additional responsibility, and serve as trusted sources of guidance.
 
 ### Technical reviewer roles
 
