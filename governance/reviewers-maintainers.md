@@ -10,7 +10,7 @@ reviewer pools to take on additional responsibility, and serve as trusted source
 
 ### Technical reviewer roles
 
-The Documentation and Community SIG also maintains a technical reviewer pool for the `o3de.org` website and its related infrastructure.
+The Documentation and Community SIG also maintains a _frontend_ technical reviewer pool for the `o3de.org` website and its related infrastructure.
 
 The technical SIGs also maintain reviewer pools for becoming a technical reviewer. 
 
