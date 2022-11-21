@@ -1,0 +1,46 @@
+name: 'SIG-<SIG-NAME>: Documentation Technical Reviewer Nomination'
+description: Nominate yourself or someone else to become a documentation reviewer on behalf of <SIG NAME> for technical accuracy.
+title: '<SIG-NAME> Documentation Technical Reviewer Nomination: <username>'
+body:
+  - type: markdown
+    attributes:
+      value: |
+        In conjunction with sig-docs-community, each technical SIG has its own reviewer pool to ensure accurate documentation. This nomination form
+        is to become a _documentation technical reviewer_ on behalf of <SIG NAME>, responsible for reviewing documentation contributions to `o3de.org`
+        for technical correctness. Documentation technical reviewers are expected to:
+
+        * Assist in the review of `o3de.org` content for technical accuracy
+        * <Your SIG may add any additional specialized requirements for review.>
+        
+        **Maintaing status:** <Each SIG is required to set their own standards for maintaining status, depending on the size of their reviewer pool and feature velocity. Be aware that without technical reviewers, the Documentation and Community SIG cannot merge documentation under [RFC #61](https://github.com/o3de/sig-docs-community/issues/61) and [RFC #74](https://github.com/o3de/sig-docs-community/issues/74).>
+
+        For more on the general requirements of Reviewer roles, read our [Community Membership](https://github.com/o3de/community/blob/main/community-membership.md) information.
+  - type: input
+    id: username
+    attributes:
+      label: Nominee GitHub user name
+      placeholder: username
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Link to relevant pull requests or comments that demonstrate meeting the requirements.
+      placeholder: |
+        * <links to relevant pull requests or comments>
+        * ...
+    validations:
+      required: true
+  - type: textarea
+    id: information
+    attributes:
+      label: Support statement  (Optional)
+      description: If you'd like, include a brief statement about why you support this nomination.
+  - type: checkboxes
+    id: approvals
+    attributes:
+      label: '**BOXES TO BE CHECKED NOMINATION REVIEW**'
+      options:
+        - label: Is a Reviewer or Maintainer for <SIG NAME>.
+        - label: 1+ of <SIG NAME> Reviewers or Maintainers support the promotion.
+        - label: 1+ Reviewers or Maintainers of the Documentation and Community SIG support the promotion.

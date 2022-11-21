@@ -12,7 +12,7 @@ reviewer pools to take on additional responsibility, and serve as trusted source
 
 The Documentation and Community SIG also maintains a technical reviewer pool for the `o3de.org` website and its related infrastructure.
 
-The technical SIGs also maintain reviewer pools for becoming a technical reviewer. 
+The technical SIGs also maintain reviewer pools for becoming a technical reviewer. There is a standard [baseline requirement](./docs-tech-review-template.yaml) for becoming a technical reviewer for any SIG. Serving as a docs technical reviewer is at the discretion of the associated SIG, and they may change qualifications for being a reviewer at any time.
 
 ### Open 3D Engine Community Roles
 
