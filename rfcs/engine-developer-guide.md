@@ -56,19 +56,22 @@ Ada, a developer on the O3DE project, is submitting a prototype feature. This fe
 
 Ada needs to submit both feature documentation (user-facing) and implementation details (engine dev-facing). Ada needs to know where to put each documentation set. There are three possible paths for this documentation to go:
 
-* Split at time of submission: Engineers are responsible for differentiating between "in-development user-facing documentation" and "developer-facing implementation and design" in their written documentation. The former documentation is submitted to the User Guide, and the latter to the Engine Developer Guide. Both submissions are still required to go to development.
-* All documentation goes to developer guide. This would be qualified as a "minor error" - users engaging with a prototype feature are most likely there to test, submit bug reports, or contribute improvements.
+1. Split at time of submission: Engineers are responsible for differentiating between "in-development user-facing documentation" and "developer-facing implementation and design" in their written documentation. The former documentation is submitted to the User Guide, and the latter to the Engine Developer Guide. Both submissions are still required to go to development.
+1. All documentation goes to the `development` branch User Guide. While a feature is in development, we may consider "users" to be alpha/beta testers who would be comfortable working with lower-quality instructions. *However*, during stabilization for a release, this would require sig-docs-community (relying on other SIGs) to evaluate content in the User Guide for release.
+1. All documentation goes to the engine developer guide. Users engaging with a prototype feature are most likely there to test, submit bug reports, or contribute improvements. *However*, there is an opposite stabilization risk here: During stabilization, sig-docs-community (relying on other SIGs) would evaluate content in the Engine Developer Guide for release.
+
+*Recommendation*: Developers who understand where to split their content should *Split at time of submission*. For developers who are unsure, they should *Submit to developer guide* and ideally request a reviewer from sig-docs-community for evaluating content for split, to create an issue to split content when the feature is stable.
 
 **Example 2 - Gem development File locations**
 
 Bill, a project developer looking for information on custom Gem development, comes to the o3de.org site looking for documentation. Bill isn't interested in the workings
 of the Gem system; Only in the process of constructing a Gem from templates and integrating it with their project. There's now the following point of confusion: Is this information in the "User Guide", or the "Engine Developer Guide"?
 
-Some possible solutions:
+This RFC recommends the following to mitigate this sort of problem:
 
-* There should still be a clear split between user-facing and developer-facing documentation. Where this is in question, the Engine Developer Guide reviewers should engage sig-docs-community's documentation reviewer pool.
-* The Engine Developer Guide should come with a highly visible warning on the main index page, or a persistent banner, which indicates the user is in this guide.
-* sig-docs-community should regularly evaluate user feedback and site behavior, and update any individual pages that seem to be causing problems with an appropriate notice about content in the User Guide.
+1. There should still be a clear split between user-facing and developer-facing documentation. Where this is in question, the Engine Developer Guide reviewers should engage sig-docs-community's documentation reviewer pool.
+1. The Engine Developer Guide should come with a highly visible warning on the main index page, or a persistent banner, which indicates the user is in this guide.
+1. sig-docs-community should regularly evaluate user feedback and site behavior, and update any individual pages that seem to be causing problems with an appropriate notice about content in the User Guide.
 
 #### Branching
 
