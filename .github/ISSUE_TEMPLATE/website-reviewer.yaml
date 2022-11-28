@@ -10,7 +10,9 @@ body:
 
         * Review changes to layouts, partials, and any website javascript submissions.
         
-        **Maintaing status:** <???>
+        **Maintaing status:** Serve in the reviewer rotation as required. Serving in the review rotation requires prompt responses to
+        feedback questions, in addition to the initial review. SIG chairpersons and maintainers will remove reviewers who don't meet this requirement on 
+        a regular basis.
 
         For more on the general requirements of Reviewer roles, read our [Community Membership](https://github.com/o3de/community/blob/main/community-membership.md) information.
   - type: input
@@ -39,4 +41,10 @@ body:
     attributes:
       label: '**BOXES TO BE CHECKED NOMINATION REVIEW**'
       options:
-        - label: <???>
+        - label: 3+ contributions for web content (CSS, Javascript, HTML, or Hugo layouts) successfully submitted to o3de.org.
+        - label: 30+ lines of code change across all web content submissions accepted to o3de.org.
+        - label: |
+            2+ approvers from the Website Reviewers group, _or_ 2+ some combination of:
+            * 1 approval of SIG-Docs-Community Maintainer or Chair
+            * 1 approval of SIG-UI-UX (for evaluating site UX changes as part of submissions)
+            * 1 approval of a reviewer from a technical SIG who has experience or specialization in frontend development
