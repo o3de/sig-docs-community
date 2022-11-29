@@ -6,7 +6,8 @@ Currently, users of Open 3D Engine (O3DE) only have one primary product manual: 
 * O3DE operates in a product space where developers often need very specific low-level technical details, or guidance on performing custom implementations of the core engine.
 
 To support those considerations, there should be an Engine Developer Guide added to o3de.org. The Engine Developer Guide would cover low-level documentation for contributors and engine modification from an official, vetted, quality-controlled source.
-Motivation
+
+## Motivation
 
 Contributors and developers modifying the engine require low-level documentation to perform their tasks. Some existing resources that they have access to which can provide some of this information are: Source code; Header documentation and API reference; RFCs.
 
