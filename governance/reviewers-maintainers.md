@@ -2,10 +2,10 @@
 
 The Documentation and Community SIG maintains the following reviewer teams:
 
-* [**Documentation Reviewer**](https://github.com/orgs/o3de/teams/docs-reviewers) - Responsible for reviewing documentation content to `o3de.org`, or conducting reviews of certain `o3de` in-product documentation elements.
-* **Community Reviewer** - Responsible for reviewing community materials, including contributor guides and blogs.
+* [**Documentation Reviewer**](https://github.com/orgs/o3de/teams/sig-docs-community-reviewers) - Responsible for reviewing documentation content to `o3de.org`, or conducting reviews of certain `o3de` in-product documentation elements.
+* **Community Specialist** - Responsible for helping review community content on [o3de.org](http://www.o3de.org) as well as participate actively in Open 3D Engine community channels.
 
-We also have [SIG maintainers](https://github.com/o3de/o3de/discussions). Documentation and Community maintainers are reviewers who have been elevated from the documentation or community reviewer teams to take on additional responsibility and serve as trusted sources of guidance.
+We also have [SIG maintainers](https://github.com/orgs/o3de/teams/sig-docs-community-maintainers). Documentation and Community maintainers are reviewers who have been elevated from the documentation or community reviewer teams to take on additional responsibility and serve as trusted sources of guidance.
 
 ### Technical reviewer roles
 
