@@ -1,5 +1,5 @@
 name: Maintainer Nomination Template
-description: Nominate yourself or someone else as a Documentaty & Community SIG maintainer.
+description: Nominate yourself or someone else as a Documentation & Community SIG maintainer.
 title: 'SIG Maintainer Nomination: <username>'
 labels: nomination/sig-maintainer
 body:
@@ -18,22 +18,22 @@ body:
         * Serve in more than one reviewer group for the SIG.
         * Attend SIG meetings and triages.
 
-        For more on the general requirements of Reviewer and Maintainer roles, read our [Community Membership](https://github.com/o3de/community/blob/main/community-membership.md) information.
+        For more information, read our SIG's [Documentation and Community reviewer roles](https://github.com/o3de/sig-docs-community/blob/main/governance/reviewers-maintainers.md). For general information about the O3DE community's Reviewer roles, read our [Community Membership](https://github.com/o3de/community/blob/main/community-membership.md#maintainers).
         
         **Maintaining status:** 8+ Pull Requests reviewed per month. Not meeting this requirement results in reduction to Reviewer status. Maintainers are encouraged to attend SIG triage and other regular meetings, but are not required to. 
 
-        *Supporters of this nomination should comment in this issue.*
   - type: input
     id: username
     attributes:
-      label: Nominee GitHub user name
+      label: Nominee's GitHub username
       placeholder: username
     validations:
       required: true
   - type: textarea
     id: evidence
     attributes:
-      label: Link to relevant pull requests or comments that demonstrate meeting the requirements.
+      label: Relevant experience
+      description: Link to relevant pull requests or comments that demonstrate meeting the requirements.
       placeholder: |
         * <links to relevant pull requests or comments>
         * ...
@@ -43,15 +43,16 @@ body:
     id: information
     attributes:
       label: Support statement 
-      description: Include a brief statement about why you support this nomination. For maintainer nominations, this is not optional.
+      description: Include a brief statement about why you support this nomination. For maintainer nominations, this is required.
     validations:
       required: true
   - type: checkboxes
     id: approvals
     attributes:
-      label: '**BOXES TO BE CHECKED NOMINATION REVIEW**'
+      label: Nomination Review Checklist
+      description: Leave this empty. This checklist will be filled in by a sig-docs-community member who is reviewing the nomination.
       options:
-        - label: Has been a Reviewer for the SIG (docs, community, or website) for 2+ months.
+        - label: Has been a Reviewer for the SIG ([docs-reviewer](https://github.com/orgs/o3de/teams/docs-reviewers), community-reviewer, or website-reviewer) for 2+ months.
         - label: 12+ reviewed Pull Requests in the previous 2 months. Under light PR load, has been a reviewer for a minimum of 3 months.
         - label: 2+ Documentation and Community SIG Maintainers who support promotion. In the absence of enough maintainers, chairs will promote.
 

@@ -15,18 +15,19 @@ body:
 
         **Maintaining status:** 4+ Pull Requests reviewed per month, or as-assigned. Under light PR load, these requirements are relaxed. Not meeting this requirement for two months in a row results in loss of reviewer status.
 
-        For more on the general requirements of Reviewer roles, read our [Community Membership](https://github.com/o3de/community/blob/main/community-membership.md) information.
+        For more information, read our SIG's [Documentation and Community reviewer roles](https://github.com/o3de/sig-docs-community/blob/main/governance/reviewers-maintainers.md). For general information about the O3DE community's Reviewer roles, read our [Community Membership](https://github.com/o3de/community/blob/main/community-membership.md#reviewers).
   - type: input
     id: username
     attributes:
-      label: Nominee GitHub user name
+      label: Nominee's GitHub username
       placeholder: username
     validations:
       required: true
   - type: textarea
     id: evidence
     attributes:
-      label: Link to relevant pull requests or comments that demonstrate meeting the requirements.
+      label: Relevant experience
+      description: Link to relevant pull requests or comments that demonstrate meeting the requirements.
       placeholder: |
         * <links to relevant pull requests or comments>
         * ...
@@ -40,12 +41,13 @@ body:
   - type: checkboxes
     id: approvals
     attributes:
-      label: '**BOXES TO BE CHECKED NOMINATION REVIEW**'
+      label: Nomination Review Checklist
+      description: Leave this empty. This checklist will be filled in by a sig-docs-community member who is reviewing the nomination.
       options:
         - label: |
           6+ merged documentation contributions for the O3DE project. The following count as documentation contributions:
           
-          * Contributions to any section of https://o3de.org/docs requiring review by a sig-docs-community non-technical review group.
+          * Contributions to any section of https://o3de.org/docs requiring review by a member of the [sig-docs-community-review](https://github.com/orgs/o3de/teams/sig-docs-community-reviewers) team.
           * Contributions to accepted sig-docs-community RFCs related to documentation. This may include operational support as well as technical writing.
-          * High-quality error messages, tooltips, UI text, or API documentation submitted to https://github.com/o3de/o3de involving approval of at least one documentation reviewer.
-        - label: 2+ docs or community reviewers or Maintainers of the Documentation and Community SIG approve the nomination.
+          * High-quality error messages, tooltips, UI text, or API documentation submitted to https://github.com/o3de/o3de involving approval of at least one member of the [docs-reviewer](https://github.com/orgs/o3de/teams/docs-reviewers) team.
+        - label: 2+ docs or community reviewers or maintainers of the Documentation and Community SIG approve the nomination.
