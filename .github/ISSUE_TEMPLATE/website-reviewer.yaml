@@ -6,26 +6,28 @@ body:
   - type: markdown
     attributes:
       value: |
-        The Documentation and Community SIG maintains several reviewer roles requiring SIG approval - this nomination form is for serving as a _website reviewer_, responsible for reviewing contributions that add layouts, templates, improve functionality, or change the appearance of o3de.org in some way. Responsibilities include:
+        The Documentation and Community SIG maintains several reviewer roles requiring SIG approval - this nomination form is for serving as a _website reviewer_, responsible for reviewing contributions that add layouts, templates, improve functionality, or change the appearance of [o3de.org](https://www.o3de.org/) in some way. Responsibilities include:
 
-        * Review changes to layouts, partials, and any website javascript submissions.
-        
-        **Maintaing status:** Serve in the reviewer rotation as required. Serving in the review rotation requires prompt responses to
-        feedback questions, in addition to the initial review. SIG chairpersons and maintainers will remove reviewers who don't meet this requirement on 
+        * Review changes to layouts, partials, and any website development submissions.
+        * Provide guidance on discussions surrounding website development, as needed.
+        * Advocate for quality changes to uphold the website's infrastructure.
+        **Maintaining status:** Serve in the reviewer rotation as required. Serving in the review rotation requires an initial review of the submission,
+         as well as prompt follow-up responses to feedback questions. SIG chairpersons and maintainers will remove reviewers who don't meet this requirement on 
         a regular basis.
 
-        For more on the general requirements of Reviewer roles, read our [Community Membership](https://github.com/o3de/community/blob/main/community-membership.md) information.
+        For more information about the general requirements of reviewer roles, read our [Community Membership](https://github.com/o3de/community/blob/main/community-membership.md) information.
   - type: input
     id: username
     attributes:
-      label: Nominee GitHub user name
+      label: Nominee GitHub username
       placeholder: username
     validations:
       required: true
   - type: textarea
     id: evidence
     attributes:
-      label: Link to relevant pull requests or comments that demonstrate meeting the requirements.
+      label: Relevant experience
+      description: Link to relevant pull requests or comments that demonstrate meeting the requirements.
       placeholder: |
         * <links to relevant pull requests or comments>
         * ...
@@ -39,7 +41,8 @@ body:
   - type: checkboxes
     id: approvals
     attributes:
-      label: '**BOXES TO BE CHECKED NOMINATION REVIEW**'
+      label: Nomination Review Checklist
+      description: Leave this empty. This checklist will be filled in by a sig-docs-community member who is reviewing the nomination.
       options:
         - label: 3+ contributions for web content (CSS, Javascript, HTML, or Hugo layouts) successfully submitted to o3de.org.
         - label: 30+ lines of code change across all web content submissions accepted to o3de.org.
