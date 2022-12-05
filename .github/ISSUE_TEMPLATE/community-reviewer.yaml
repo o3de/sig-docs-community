@@ -1,20 +1,24 @@
 name: Community Reviewer Nomination Template
-description: Nominate yourself or someone else to become a community reviewer.
+description: Nominate yourself or someone else to become a community specialist.
 title: 'Community Reviewer Nomination: <username>'
 labels: nomination/community-reviewer
 body:
   - type: markdown
     attributes:
       value: |
-        The Documentation and Community SIG maintains several reviewer roles requiring SIG approval - this nomination form is for serving as a _community reviewer_, responsible for reviewing contributions to `o3de.org/community`, `o3de.org/blogs`, `o3de.org/docs/contributing`, and the `o3de/community` repo. Community reviewers are expected to:
+        The Documentation and Community SIG maintains several SIG roles requiring  approval - this nomination form is for serving as a _community specialist_, responsible for reviewing contributions to `o3de.org/community`, `o3de.org/blogs`, `o3de.org/docs/contributing`, and the `o3de/community` repo. Community reviewers are expected to:
 
         * Assist in the review of blogs and other community-related content.
         * Help surface and guide discussion for `o3de/community` issues.
-        * <???>
+        * Provide feedback on RFCs which affect the O3DE community.
+        * Contribute to and participate in discussion channels like Discord and GitHub forums. Serving as a moderator is recommended but not required.
+        * Serving as a dedicated representative of the broader O3DE community
+        * Assist in enforcing the [code of conduct](LINK).
+        * Attending SIG meetings which you can represent the community in is recommended but not required.
         
-        **Maintaing status:** <???>
+        **Maintaing status:** Remain active in community review, project discussions, blog review, or blog submission for a 90 day period.
 
-        For more on the general requirements of Reviewer roles, read our [Community Membership](https://github.com/o3de/community/blob/main/community-membership.md) information.
+        For more on the general requirements of the O3DE community roles, read our [Community Membership](https://github.com/o3de/community/blob/main/community-membership.md) information.
   - type: input
     id: username
     attributes:
@@ -22,10 +26,17 @@ body:
       placeholder: username
     validations:
       required: true
+  - type: input
+    id: discord
+    attributes:
+      label: Nominee Discord user name
+      placeholder: discord
+    validations:
+      required: false
   - type: textarea
     id: evidence
     attributes:
-      label: Link to relevant pull requests or comments that demonstrate meeting the requirements.
+      label: Link to relevant evidence that demonstrates meeting the requirements.
       placeholder: |
         * <links to relevant pull requests or comments>
         * ...
@@ -40,5 +51,11 @@ body:
     id: approvals
     attributes:
       label: '**BOXES TO BE CHECKED NOMINATION REVIEW**'
+      description: 3+ boxes must be checked (Including community member approvals)
       options:
-        - label: <???>
+        - label: 2+ Community Reviewers who approve, _or_ 3+ Community members (Reviewer, Maintainer, Chair) who approve
+        - label: |
+            Active on GitHub for 90 days or more OR Active in O3DE Discord for 90 days.
+            Consistent involvement in pull requests, discussions, or community channels for the last 60 days
+            
+            
