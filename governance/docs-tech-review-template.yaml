@@ -18,14 +18,15 @@ body:
   - type: input
     id: username
     attributes:
-      label: Nominee GitHub user name
+      label: Nominee's GitHub username
       placeholder: username
     validations:
       required: true
   - type: textarea
     id: evidence
     attributes:
-      label: Link to relevant pull requests or comments that demonstrate meeting the requirements.
+      label: Relevant experience
+      description: Link to relevant pull requests or comments that demonstrate meeting the requirements.
       placeholder: |
         * <links to relevant pull requests or comments>
         * ...
@@ -39,7 +40,8 @@ body:
   - type: checkboxes
     id: approvals
     attributes:
-      label: '**BOXES TO BE CHECKED NOMINATION REVIEW**'
+      label: Nomination Review Checklist
+      description: Leave this empty. This checklist will be filled in by a sig-docs-community member who is reviewing the nomination.
       options:
         - label: Is a Reviewer or Maintainer for <SIG NAME>.
         - label: 1+ of <SIG NAME> Reviewers or Maintainers support the promotion.
