@@ -11,6 +11,7 @@ body:
         * Review changes to layouts, partials, and any website development submissions.
         * Provide guidance on discussions surrounding website development, as needed.
         * Advocate for quality changes to uphold the website's infrastructure.
+
         **Maintaining status:** Serve in the reviewer rotation as required. Serving in the review rotation requires an initial review of the submission,
          as well as prompt follow-up responses to feedback questions. SIG chairpersons and maintainers will remove reviewers who don't meet this requirement on 
         a regular basis.
@@ -19,7 +20,7 @@ body:
   - type: input
     id: username
     attributes:
-      label: Nominee GitHub username
+      label: Nominee's GitHub username
       placeholder: username
     validations:
       required: true
