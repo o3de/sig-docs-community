@@ -1,21 +1,21 @@
 name: Community Specialist Nomination Template
 description: Nominate yourself or someone else to become a community specialist.
-title: 'Community Reviewer Nomination: <username>'
+title: 'Community Specialist Nomination: <username>'
 labels: nomination/community-specialist
 body:
   - type: markdown
     attributes:
       value: >
         The Documentation and Community SIG maintains several SIG roles requiring  approval - this nomination form is for serving as a _community specialist_,
-        responsible for reviewing contributions to `o3de.org/community`, `o3de.org/blogs`, `o3de.org/docs/contributing`, and the `o3de/community` repo.
+        responsible for reviewing contributions to `o3de.org/community`, `o3de.org/blogs`, `o3de.org/docs/contributing`, and the `o3de/community` repos.
         Community reviewers are expected to:
 
         * Assist in the review of blogs and other community-related content.
         * Help surface and guide discussion for `o3de/community` issues.
         * Provide feedback on RFCs which affect the O3DE community.
         * Contribute to and participate in discussion channels like Discord and GitHub forums. Serving as a moderator is recommended but not required.
-        * Serving as a dedicated representative of the broader O3DE community
-        * Assist in enforcing the [code of conduct](LINK).
+        * Serving as a dedicated representative of the broader O3DE community.
+        * Assist in enforcing the [code of conduct](https://lfprojects.org/policies/code-of-conduct/).
         * Attending SIG meetings which you can represent the community in is recommended but not required.
         
         **Maintaing status:** Remain active in community review, project discussions, blog review, or blog submission for a 90 day period.
@@ -25,7 +25,7 @@ body:
   - type: input
     id: username
     attributes:
-      label: Nominee GitHub user name
+      label: Nominee's GitHub username
       placeholder: username
     validations:
       required: true
@@ -53,10 +53,12 @@ body:
   - type: checkboxes
     id: approvals
     attributes:
-      label: '**BOXES TO BE CHECKED NOMINATION REVIEW**'
-      description: 3+ boxes must be checked (Including community member approvals)
+      label: Nomination Review Checklist
+      description: > 
+      3+ boxes must be checked (Including community member approvals)
+      Leave this empty. This checklist will be filled in by a sig-docs-community member who is reviewing the nomination.
       options:
-        - label: 2+ Community Reviewers who approve, _or_ 3+ Community members (Reviewer, Maintainer, Chair) who approve
+        - label: 2+ Community Specialists who approve, _or_ 3+ Community members (Reviewer, Maintainer, Chair) who approve
         - label: Active on GitHub for 90 days
         - label: Active on O3DE Discord for 90 days
         - label: Consistent involvement in pull requests, discussions, or community channels for the last 60 days
