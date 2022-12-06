@@ -11,7 +11,6 @@ body:
         * Help guide structure and intent of documentation submissions. Writing documentation is hard and often a subjective exercise, so reviewers are expected to exercise both their best judgement and follow common site structure and [templates](https://www.o3de.org/docs/contributing/to-docs/templates/) where available.
         * Help ensure consistency of product [terminology](https://www.o3de.org/docs/contributing/to-docs/terminology/).
         * Review content submissions with an eye towards following the [style guide](https://www.o3de.org/docs/contributing/to-docs/style-guide/).
-        * Review 4+ pull requests per month, or as-assigned. Under light PR load, these requirements are relaxed. Not meeting this requirement for two months in a row results in loss of reviewer status.
 
         **Maintaining status:** 4+ Pull Requests reviewed per month, or as-assigned. Under light PR load, these requirements are relaxed. Not meeting this requirement for two months in a row results in loss of reviewer status.
 
