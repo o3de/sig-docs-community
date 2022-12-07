@@ -1,0 +1,54 @@
+name: Website Reviewer Nomination Template
+description: Nominate yourself or someone else to become a website reviewer.
+title: 'Website Reviewer Nomination: <username>'
+labels: nomination/website-reviewer
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The Documentation and Community SIG maintains several reviewer roles requiring SIG approval - this nomination form is for serving as a _website reviewer_, responsible for reviewing contributions that add layouts, templates, improve functionality, or change the appearance of [o3de.org](https://www.o3de.org/) in some way. Responsibilities include:
+
+        * Review changes to layouts, partials, and any website development submissions.
+        * Provide guidance on discussions surrounding website development, as needed.
+        * Advocate for quality changes to uphold the website's infrastructure.
+
+        **Maintaining status:** Serve in the reviewer rotation as required. Serving in the review rotation requires an initial review of the submission,
+         as well as prompt follow-up responses to feedback questions. SIG chairpersons and maintainers will remove reviewers who don't meet this requirement on 
+        a regular basis.
+
+        For more information about the general requirements of reviewer roles, read our [Community Membership](https://github.com/o3de/community/blob/main/community-membership.md) information.
+  - type: input
+    id: username
+    attributes:
+      label: Nominee's GitHub username
+      placeholder: username
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Relevant experience
+      description: Link to relevant pull requests or comments that demonstrate meeting the requirements.
+      placeholder: |
+        * <links to relevant pull requests or comments>
+        * ...
+    validations:
+      required: true
+  - type: textarea
+    id: information
+    attributes:
+      label: Support statement  (Optional)
+      description: If you'd like, include a brief statement about why you support this nomination.
+  - type: checkboxes
+    id: approvals
+    attributes:
+      label: Nomination Review Checklist
+      description: Leave this empty. This checklist will be filled in by a sig-docs-community member who is reviewing the nomination.
+      options:
+        - label: 3+ contributions for web content (CSS, Javascript, HTML, or Hugo layouts) successfully submitted to o3de.org.
+        - label: 30+ lines of code change across all web content submissions accepted to o3de.org.
+        - label: |
+            2+ approvers from the Website Reviewers group, _or_ 2+ some combination of:
+            * 1 approval of SIG-Docs-Community Maintainer or Chair
+            * 1 approval of SIG-UI-UX (for evaluating site UX changes as part of submissions)
+            * 1 approval of a reviewer from a technical SIG who has experience or specialization in frontend development
