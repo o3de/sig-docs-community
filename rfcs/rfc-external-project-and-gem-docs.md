@@ -2,15 +2,20 @@
 
 ## Summary
 
-This RFC proposes to clarify whether documentation about external projects and Gems, which live outside of the `o3de` repository, can be included in O3DE Documentation (`o3de.org/docs`). 
+This RFC proposes to clarify whether documentation about external projects and Gems can be included in O3DE Documentation (`o3de.org/docs`). For the context of this RFC, "external" refers to those that live outside of the `o3de` repository.
 
 External projects and Gems commonly fall under the following scenarios:
 - They live outside of the `o3de` organization, such as those created by O3DE partners.
 - Their repositories are part of the `o3de` organization, but not part of the `o3de` repository.
 
+Examples include docs for templates and Gems in `o3de-extras` repo, and tutorials for the Multiplayer Sample Project. 
+
 ### What is the motivation for this suggestion?
 
 As the collection of O3DE projects and Gems expands, we need to establish boundaries about what documentation can be accepted into O3DE Documentation. It's important to set this boundary because it can directly impact the scope of responsibilities for D&C SIG and other O3DE maintainers.
+
+A current case is documentation for the Multiplayer Sample Project (MSP). While MSP's code base lives in a separate repository within `o3de` organization, its documentation is planned to live within O3DE Documentation. This decision was based on MSP's impact on the O3DE community, and consensus among D&C SIG and other O3DE community members who are stakeholders of MSP. 
+
 
 ### Suggestion design description
 
