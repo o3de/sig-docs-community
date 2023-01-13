@@ -6,7 +6,7 @@ We run the [o3de.org/docs](http://o3de.org/docs) website, manage its content, an
 
 You can reach us at @sig-docs-community on Discord!
 
-For a broader view of the whole O3DF community, go to the [o3de/community](https://github.com/o3de/community/) repo.
+For a broader view of the whole O3DE community, go to the [o3de/community](https://github.com/o3de/community/) repo.
 
 ## D&C SIG Responsibilities
 In summary, our responsibilities include:
@@ -20,17 +20,20 @@ For more information, see the official [Documentation and Community SIG Charter]
 ## How can you contribute? 
 
 **Contribute to O3DE Documentation**
+
 Whether it's filing an issue, updating existing docs, or even writing completely new docs - we highly appreciate all efforts to improving the documentation. 
 
 If you're thinking of contributing to the docs, review [Contributing to O3DE Documentation](https://www.o3de.org/docs/contributing/to-docs/)  for onboarding instructions, style guides, and docs templates. 
 
 
 **Write a blog post** 
+
 If your team is working on an exciting project with O3DE or developing an awesome feature for the engine, then share the news in a blog post! 
 
 Read about [How to Submit a Blog Post for o3de.org](https://www.o3de.org/docs/contributing/to-docs/blog-posts/) and check out the latest [O3DE blogs](https://www.o3de.org/community/) from the community. 
 
 **Attend our meetings** 
+
 Everyone is welcome to attend our meetings in the #sig-docs-community voice channel! We triage [`o3de/o3de.org` GitHub issues](https://github.com/o3de/o3de.org/issues) weekly, and have docs-/community-related discussions bi-weekly. 
 
 Check out the [calendar](https://lists.o3de.org/calendar#) for events, and view past [meeting notes](meetings/README.md). Look out for upcoming meeting agendas in [sig-docs-community issues](https://github.com/o3de/sig-docs-community/issues).
