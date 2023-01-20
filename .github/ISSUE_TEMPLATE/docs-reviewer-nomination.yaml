@@ -44,9 +44,9 @@ body:
       description: Leave this empty. This checklist will be filled in by a sig-docs-community member who is reviewing the nomination.
       options:
         - label: |
-          6+ merged documentation contributions for the O3DE project. The following count as documentation contributions:
-          
-          * Contributions to any section of https://o3de.org/docs requiring review by a member of the [sig-docs-community-review](https://github.com/orgs/o3de/teams/sig-docs-community-reviewers) team.
-          * Contributions to accepted sig-docs-community RFCs related to documentation. This may include operational support as well as technical writing.
-          * High-quality error messages, tooltips, UI text, or API documentation submitted to https://github.com/o3de/o3de involving approval of at least one member of the [docs-reviewer](https://github.com/orgs/o3de/teams/docs-reviewers) team.
+            6+ merged documentation contributions for the O3DE project. The following count as documentation contributions:          
+            
+            * Contributions to any section of https://o3de.org/docs requiring review by a member of the [sig-docs-community-review](https://github.com/orgs/o3de/teams/sig-docs-community-reviewers) team.
+            * Contributions to accepted sig-docs-community RFCs related to documentation. This may include operational support as well as technical writing.
+            * High-quality error messages, tooltips, UI text, or API documentation submitted to https://github.com/o3de/o3de involving approval of at least one member of the [docs-reviewer](https://github.com/orgs/o3de/teams/docs-reviewers) team.
         - label: 2+ docs or community reviewers or maintainers of the Documentation and Community SIG approve the nomination.

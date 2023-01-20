@@ -55,10 +55,10 @@ body:
     attributes:
       label: Nomination Review Checklist
       description: > 
-      3+ boxes must be checked (Including community member approvals)
-      Leave this empty. This checklist will be filled in by a sig-docs-community member who is reviewing the nomination.
-      options:
-        - label: 2+ Community Specialists who approve, _or_ 3+ Community members (Reviewer, Maintainer, Chair) who approve
-        - label: Active on GitHub for 90 days
-        - label: Active on O3DE Discord for 90 days
-        - label: Consistent involvement in pull requests, discussions, or community channels for the last 60 days
+        3+ boxes must be checked (Including community member approvals)
+        Leave this empty. This checklist will be filled in by a sig-docs-community member who is reviewing the nomination.
+        options:
+          - label: 2+ Community Specialists who approve, _or_ 3+ Community members (Reviewer, Maintainer, Chair) who approve
+          - label: Active on GitHub for 90 days
+          - label: Active on O3DE Discord for 90 days
+          - label: Consistent involvement in pull requests, discussions, or community channels for the last 60 days
