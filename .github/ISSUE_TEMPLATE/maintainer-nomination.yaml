@@ -52,7 +52,7 @@ body:
       label: Nomination Review Checklist
       description: Leave this empty. This checklist will be filled in by a sig-docs-community member who is reviewing the nomination.
       options:
-        - label: Has been a Reviewer for the SIG ([docs-reviewer](https://github.com/orgs/o3de/teams/docs-reviewers), [community-specialist](https://github.com/orgs/o3de/teams/community-specialist), or website-reviewer) for 2+ months.
+        - label: Has been a Reviewer for the SIG ([docs-reviewer](https://github.com/orgs/o3de/teams/docs-reviewers), [community-specialist](https://github.com/orgs/o3de/teams/community-specialist), or [website-reviewer](https://github.com/orgs/o3de/teams/sig-docs-community-site-reviewers)) for 2+ months.
         - label: 12+ reviewed Pull Requests in the previous 2 months. Under light PR load, has been a reviewer for a minimum of 3 months.
         - label: 2+ Documentation and Community SIG Maintainers who support promotion. In the absence of enough maintainers, chairs will promote.
 

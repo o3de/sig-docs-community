@@ -8,7 +8,7 @@ The Documentation and Community (D&C) SIG maintains the following reviewer teams
 
 We also have [SIG maintainers](https://github.com/orgs/o3de/teams/sig-docs-community-maintainers). Documentation and Community maintainers are reviewers who have been elevated from the documentation or community reviewer teams to take on additional responsibility and serve as trusted sources of guidance.
 
-To nominate you or a peer for a reviewer role, [create an issue](https://github.com/o3de/sig-docs-community/issues/new/choose) using the appropriate issue template.
+To nominate yourself or a peer for a reviewer role, [create an issue](https://github.com/o3de/sig-docs-community/issues/new/choose) using the appropriate issue template.
 
 ### Technical reviewer roles
 
