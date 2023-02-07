@@ -1,7 +1,7 @@
 ---
 name: 'Roadmap Item'
 about: Create roadmap item for this project
-title: Roadmap Item =description=
+title: 'Roadmap: =description='
 labels: kind/roadmap, needs-triage
 assignees: ''
 
@@ -15,7 +15,7 @@ This roadmap item template should be used for any feature that shows in the O3DE
 
 # ----- DELETE EVERYTHING FROM THE TOP TO THE SUMMARY LINE BELOW WHEN USING TEMPLATE ----- #
 
-### Summary:
+### Summary
 Single paragraph explanation of the roadmap item
 
 ### What is the relevance of this feature?
@@ -24,10 +24,16 @@ Single paragraph explanation of the roadmap item
 - What will it do once completed?
 - Are there any changes or impacts to other features? 
 
+```[tasklist]
 ### Tasks
-What tasks are necessary to complete the roadmap item?
 - [ ] _GitHub issue 1 link_
 - [ ] _GitHub issue 2 link and so on._
+```
 
 ### Related Links
-Link to additional informaton such as RFC related to the roadmap item.
+Link to additional information such as RFC related to the roadmap item.
+
+
+
+---
+_Learn more about [O3DE roadmaps](https://github.com/o3de/sig-release/issues/79)._
