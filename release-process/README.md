@@ -1,6 +1,6 @@
 # O3DE Docs Release Process
 
-The **Open 3D Engine (O3DE) Documentation** is released in conjunction with the O3DE codebase, so that each release has a complimentary set of documentation accurate to the functionality present in the release. This guide contains all of the information needed to update the O3DE Documentation for an upcoming release. It's a sub-process of the overarching [Major Release Process](https://github.com/o3de/sig-release/blob/main/releases/Process/Major%20Release%20Process.md). The O3DE Documentation is maintained in the [`o3de.org`](https://github.com/o3de/o3de.org) repo, and most updates will result in pull requests (PRs).
+The **Open 3D Engine (O3DE) Documentation** is released in conjunction with the O3DE codebase, so that each release has a complementary set of documentation accurate to the functionality present in the release. This guide contains all of the information needed to update the O3DE Documentation for an upcoming release. It's a sub-process of the overarching [Major Release Process](https://github.com/o3de/sig-release/blob/main/releases/Process/Major%20Release%20Process.md). The O3DE Documentation is maintained in the [`o3de.org`](https://github.com/o3de/o3de.org) repo, and most updates will result in pull requests (PRs).
 
 *To make updates to this document, please reach out to the #sig-docs-community channel in the O3DE Discord and create a PR in the [sig-docs-community repository](https://github.com/o3de/sig-docs-community/).*
 
