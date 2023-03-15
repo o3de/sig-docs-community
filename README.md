@@ -56,3 +56,7 @@ Subscribe to our [mailing list](https://lists.o3de.org/g/sig-docs-community) to 
 
 Docs chair: @chanmosq#2530 (Discord)
 Community chair: @Finchy#5545 (Discord)
+
+### Documentation release process
+
+Every major O3DE release, members of the D&C SIG are responsible for assisting the Release SIG in publishing a new version of the O3DE Documentation. For more information, refer to the [Major Release Process](https://github.com/chanmosq/sig-release/blob/6c485aedce644816f7b017b2a55fa9a259154bca/releases/Process/Major%20Release%20Process.md) in the `sig-release` repo.
