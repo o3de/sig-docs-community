@@ -1,2 +1,5 @@
 .vscode
 
+# Ignore the following files in o3de-doxygen
+/tools/o3de-doxygen/build/*
+/tools/o3de-doxygen/*.log
