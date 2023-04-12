@@ -1,7 +1,10 @@
 #!/bin/bash
 
-source ./o3de-api-functions.sh
-source ./config.sh
+# Relative path to this script
+REL_PATH=${BASH_SOURCE%/*}
+
+source  ${REL_PATH}/o3de-api-functions.sh
+source ${REL_PATH}/config.sh
 
 # Path to output generated files
 OUTPUT_DIRECTORY=${O3DEORG_PATH}/static/docs/api/gems  
@@ -10,19 +13,23 @@ OUTPUT_DIRECTORY=${O3DEORG_PATH}/static/docs/api/gems
 GEMS=${O3DE_PATH}/Gems
 
 # Gems API landing page template
-LANDING_TEMPLATE=gems_index.md
+LANDING_TEMPLATE=${REL_PATH}/gems_index.md
 
 # File to output LANDING_TEMPLATE
-OUTPUT_TOC=${O3DEORG_PATH}/content/docs/api/gems/${toc}
+OUTPUT_TOC=${O3DEORG_PATH}/content/docs/api/gems/_index.md
 
-# Create Gems API landing page (https://www.o3de.org/docs/api/gems/)
-# If parent directories don't exist, create them
-if [ ! -e "${OUTPUT_TOC%%/*}" ]; then
-    mkdir -p ${OUTPUT_TOC%%/*}
+echo "Create Gems API landing page (https://www.o3de.org/docs/api/gems/):" ${OUTPUT_TOC}
+if [ ! -e "${OUTPUT_TOC%/*}" ]; then
+    mkdir -p "${OUTPUT_TOC%/*}"
 fi
 cp ${LANDING_TEMPLATE} ${OUTPUT_TOC}
 
-# Generate a set of API docs for each Gem
+echo "Clean output directory: " ${OUTPUT_DIRECTORY}
+if [ -d ${OUTPUT_DIRECTORY} ]; then
+    rm -r ${OUTPUT_DIRECTORY}
+fi
+
+echo "Generate a set of API docs for each Gem"
 for gem_path in `ls -1d ${GEMS}/*/`; do
 
     # Configure and run Doxygen
@@ -32,7 +39,7 @@ for gem_path in `ls -1d ${GEMS}/*/`; do
     echo "* [${gem}](/docs/api/gems/${gem})" >> ${OUTPUT_TOC}
 
     config_file=`mktemp`
-    index=index.md
+    index=${REL_PATH}/index.md
 
     echo \
     "
@@ -43,7 +50,7 @@ for gem_path in `ls -1d ${GEMS}/*/`; do
     Return to the [Gems API Reference](/docs/api/gems) index page. 
     " > $index
 
-    main_config="core-api-doxygen.config"
+    main_config="${REL_PATH}/core-api-doxygen.config"
     if [ -e "${gem}.doxygen" ]; then
         main_config="${gem}.doxygen"
     fi

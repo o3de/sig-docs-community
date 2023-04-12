@@ -57,7 +57,7 @@ The C++ API reference generation scripts runs Doxygen on your local `o3de` clone
     ```
    -  **upstream**: Set to track the source repo, [`https://github.com/o3de/o3de.git`](https://github.com/o3de/o3de.git)
 
-1. Run  `git clean` in your local O3DE clone.
+1. Make sure the branch is clean from any untracked files or changes. The branch should be at the same state as the upstream branch's HEAD. To clean, run  `git clean`, `git reset`, or `git stash` as needed.
 
 #### `o3de.org`
 
@@ -69,13 +69,13 @@ The C++ API reference generation scripts runs Doxygen on your local `o3de` clone
     ```
    -  **upstream**: Set to track the source repo, [`https://github.com/o3de/o3de.org.git`](https://github.com/o3de/o3de.org.git)
 
-1. Create a new branch, such as `api-ref`. This branch will contain the API reference docs that you will [generate](#generate) later. 
+1. Create a new branch, such as `api-ref`. This branch will contain the API reference docs that you will [generate](#generate) later.
 
     ```shell
     git switch -c api-ref
     ```
 
-1. Make sure the `api-ref` branch is clean from any untracked files or changes. The branch should be at the same state as the upstream branch's HEAD. To clean, run  `git clean`, `git reset`, or `git stash` as needed.
+1. Make sure the branch is clean from any untracked files or changes. The branch should be at the same state as the upstream branch's HEAD. To clean, run  `git clean`, `git reset`, or `git stash` as needed.
 
 ### Prepare scripts
 
@@ -139,7 +139,13 @@ In some cases, the O3DE API Reference must include the API for code that lives o
 
 To generate API References for Gems outside of `o3de`: 
 
-1. Move the Gem's directory into the `Gems` directory of your local `o3de` clone.
+1. Move or copy the Gem's directory into the `Gems` directory of your local `o3de` clone. 
+
+    To do this using the terminal in your Linux machine, run the following `cp` command with your specified paths. This copies the Gem into the `o3de/Gems/` directory.
+
+    ```shell
+    cp -r <path-to-gem> <path-to>/o3de/Gems
+    ```
 
 2. [Generate the Gems API](#gems-api). 
 

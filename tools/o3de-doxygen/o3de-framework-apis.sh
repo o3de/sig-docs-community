@@ -1,7 +1,10 @@
 #!/bin/bash
 
-source ./o3de-api-functions.sh
-source ./config.sh
+# Relative path to this script
+REL_PATH=${BASH_SOURCE%/*}
+
+source  ${REL_PATH}/o3de-api-functions.sh
+source ${REL_PATH}/config.sh
 
 # Path to output generated files
 OUTPUT_DIRECTORY=${O3DEORG_PATH}/static/docs/api/frameworks  
@@ -10,19 +13,23 @@ OUTPUT_DIRECTORY=${O3DEORG_PATH}/static/docs/api/frameworks
 FRAMEWORKS=${O3DE_PATH}/Code/Framework
 
 # Frameworks API landing page template
-LANDING_TEMPLATE=framework_index.md
+LANDING_TEMPLATE=${REL_PATH}/framework_index.md
 
 # File to output LANDING_TEMPLATE
 OUTPUT_TOC=${O3DEORG_PATH}/content/docs/api/frameworks/_index.md
 
-# Create Frameworks API landing page (https://www.o3de.org/docs/api/frameworks/)
-# If parent directories don't exist, create them
-if [ ! -e "${OUTPUT_TOC%%/*}" ]; then
-    mkdir -p "${OUTPUT_TOC%%/*}"
+echo "Create Gems API landing page (https://www.o3de.org/docs/api/frameworks/): " ${OUTPUT_TOC}
+if [ ! -e "${OUTPUT_TOC%/*}" ]; then
+    mkdir -p "${OUTPUT_TOC%/*}"
 fi
 cp ${LANDING_TEMPLATE} ${OUTPUT_TOC}
 
-# Generate a set of API docs for each framework
+echo "Clean output directory: " ${OUTPUT_DIRECTORY}
+if [ -d ${OUTPUT_DIRECTORY} ]; then
+    rm -r ${OUTPUT_DIRECTORY}
+fi
+
+echo "Generate a set of API docs for each framework"
 for framework_path in `ls -1d ${FRAMEWORKS}/*/ `; do
 
     # Configure and run Doxygen
@@ -32,7 +39,7 @@ for framework_path in `ls -1d ${FRAMEWORKS}/*/ `; do
     echo "* [${framework}](/docs/api/frameworks/${framework})" >> ${OUTPUT_TOC}
 
     config_file=`mktemp`
-    index="index.md"
+    index="${REL_PATH}/index.md"
 
     echo \
     "
@@ -44,7 +51,7 @@ for framework_path in `ls -1d ${FRAMEWORKS}/*/ `; do
 
     " > $index
 
-    main_config="core-api-doxygen.config"
+    main_config="${REL_PATH}/core-api-doxygen.config"
     if [ -e "${framework}.doxygen" ]; then
         main_config="${framework}.doxygen"
     fi
