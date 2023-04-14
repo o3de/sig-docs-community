@@ -1,6 +1,6 @@
 # C++ API Reference Generation
 
-The [Open 3D Engine (O3DE) API Reference](https://www.o3de.org/docs/api/) is generated using [Doxygen](https://www.doxygen.nl/). With the help of the API Reference Generation (`o3de-doxygen`) scripts to automate the process, an API reference is generated for all frameworks and Gems in the [`o3de` repository](https://github.com/o3de/o3de.org) by default.  You may also configure the scripts to [generate API references for Gems in other O3DE repositories]((#generating-for-gems-outside-of-o3de)).
+The [Open 3D Engine (O3DE) API Reference](https://www.o3de.org/docs/api/) is generated using [Doxygen](https://www.doxygen.nl/). With the help of the API Reference Generation (`o3de-doxygen`) scripts to automate the process, an API reference is generated for all frameworks and Gems in the [`o3de` repository](https://github.com/o3de/o3de) by default.  You may also configure the scripts to [generate API references for Gems in other O3DE repositories](#generating-for-gems-outside-of-o3de).
 
 
 ## Requirements
@@ -45,7 +45,7 @@ The `o3de-doxygen` scripts use some efficient Rust commands for processing the s
 
 ### Clean repos
 
-The C++ API reference generation scripts runs Doxygen on your local `o3de` clone. Then it outputs the generated files into your local `o3de.org` clone. Therefore, before you generate the API, you must ensure that your cloned repos are clean and have the latest changes.
+The C++ API reference generation scripts run Doxygen on your local `o3de` clone. Then it outputs the generated files into your local `o3de.org` clone. Therefore, before you generate the API, you must ensure that your cloned repos are clean and have the latest changes.
 
 #### `o3de`
 
@@ -69,7 +69,7 @@ The C++ API reference generation scripts runs Doxygen on your local `o3de` clone
     ```
    -  **upstream**: Set to track the source repo, [`https://github.com/o3de/o3de.org.git`](https://github.com/o3de/o3de.org.git)
 
-1. Create a new branch, such as `api-ref`. This branch will contain the API reference docs that you will [generate](#generate) later.
+1. Create a new branch, such as `api-ref`. This branch will contain the API reference docs that you will [generate](#generate) in a later step.
 
     ```shell
     git switch -c api-ref
