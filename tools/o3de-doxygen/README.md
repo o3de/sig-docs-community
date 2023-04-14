@@ -85,7 +85,7 @@ The C++ API reference generation scripts run Doxygen on your local `o3de` clone.
 
    - `O3DEORG_PATH`: Path to your local o3de.org clone (e.g. `O3DEORG_PATH=$HOME/o3de.org`)
    
-   - `PROJECT_NUMBER`: The O3DE version that of this API reference  (e.g. `PROJECT_NUMBER=23.05.0`)
+   - `PROJECT_NUMBER`: The O3DE version of this API reference  (e.g. `PROJECT_NUMBER=23.05.0`)
 
     The C++ API reference generation scripts read from `O3DE_PATH` and write to `O3DEORG_PATH`. 
 
@@ -160,7 +160,7 @@ By default, if `\mainpage` is not specified, an API's main page includes a brief
 
 ![Default mainpage example](files/default-mainpage-example.png)
 
-If a developer documents the API using `/mainpage`, it will replace the default introduction. However, you may still insert the table of contents by adding `o3de-doxygen-insert-table` to your `/mainpage` comment block. For example, this comment block in the AzQtComponents's source code generates the following main page. 
+If a developer documents the API using `\mainpage`, it will replace the default introduction. However, you may still insert the table of contents by adding `o3de-doxygen-insert-table` to your `\mainpage` comment block. For example, this comment block in the AzQtComponents's source code generates the following main page. 
 
 ```
 /**
