@@ -1,0 +1,10 @@
+# Custom commands for the O3DE API documentation generation. These commands are used throughout the project
+# in multiple libraries and should be used wherever possible.
+
+ALIASES += \
+    docroot="https://o3de.org/docs" \
+    designpage{1}="[Design guide reference for this class](\docroot/tools-ui/component-library\1)." \
+    guidepage{2}="[See the tools UX developer guide for more information](\docroot/\2/\1)." \
+    guidepage{3}="See [\3](\docroot/\2/\1) for more information." \
+    default{1}="Returns \1 by default." \
+    initial{1}="Initial value is \1."
