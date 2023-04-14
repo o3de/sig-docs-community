@@ -45,7 +45,7 @@ The `o3de-doxygen` scripts use some efficient Rust commands for processing the s
 
 ### Clean repos
 
-The C++ API reference generation scripts run Doxygen on your local `o3de` clone. Then it outputs the generated files into your local `o3de.org` clone. Therefore, before you generate the API, you must ensure that your cloned repos are clean and have the latest changes.
+The C++ API reference generation scripts run Doxygen on your local `o3de` clone. These scripts output the generated files into your local `o3de.org` clone. Therefore, before you generate the API, you must ensure that your cloned repos are clean and have the latest changes.
 
 #### `o3de`
 
