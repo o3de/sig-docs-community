@@ -79,13 +79,13 @@ The C++ API reference generation scripts runs Doxygen on your local `o3de` clone
 
 ### Prepare scripts
 
-1. In `config.sh` set the following variables:
+1. Edit `config.sh` in the `o3de-doxygen` directory and set the following variables:
 
    - `O3DE_PATH`: Path to your local o3de clone  (e.g. $HOME/o3de)
 
    - `O3DEORG_PATH`: Path to your local o3de.org clone (e.g. $HOME/o3de.org)
 
-    The C++ API reference generation scripts read from `o3de` and write to `o3de.org`. 
+    The C++ API reference generation scripts read from `O3DE_PATH` and write to `O3DEORG_PATH`. 
 
 1. If this is your first time running the script, you may need to enable permissions to execute the program. In the `o3de-doxygen` directory, run the following: 
 
@@ -106,7 +106,7 @@ In the `o3de-doxygen` directory, run the script:
 ./o3de-framework-apis.sh
 ```
 
-This generates the following files in `o3de.org`: 
+This generates the following files in `O3DEORG_PATH`: 
  - `content/docs/api/frameworks/_index.md`
  - `static/docs/api/frameworks/*`
 
@@ -120,7 +120,7 @@ In the `o3de-doxygen` directory, run the script:
 ./o3de-gem-apis.sh
 ```
 
-This generates the following files in `o3de.org`: 
+This generates the following files in `O3DEORG_PATH`: 
   - `content/docs/api/gems/_index.md`
   - `static/docs/api/gems/*`
 
@@ -152,13 +152,13 @@ To generate API References for Gems outside of `o3de`:
 
 ## Customizing the API's main page
 
-The main page is the first page you see when you open a framework or Gem's Doxygen-generated API reference. For example, open any [framework](https://www.o3de.org/docs/api/frameworks/) or [Gem](https://www.o3de.org/docs/api/gems/) in the API docs. The contents of the main page is either automatically generated, or specified by the developer by using the Doxygen command, [/mainpage](https://doxygen.nl/manual/commands.html#cmdmainpage), in the code's comments.
+The main page is the first page you see when you open a framework or Gem's Doxygen-generated API reference. For example, open any [framework](https://www.o3de.org/docs/api/frameworks/) or [Gem](https://www.o3de.org/docs/api/gems/) in the API docs. The contents of the main page is either automatically generated, or specified by the developer by using the Doxygen command, [\mainpage](https://doxygen.nl/manual/commands.html#cmdmainpage), in the code's comments.
 
-By default, if `/mainpage` is not specified, an API's main page includes a brief introduction and a table of contents, like the following: 
+By default, if `\mainpage` is not specified, an API's main page includes a brief introduction and a table of contents, like the following: 
 
 ![Default mainpage example](files/default-mainpage-example.png)
 
-If a developer documents the API using `/mainpage`, it will replace the default introduction. However, you may still insert the table of contents by adding `o3de-doxygen-insert-table` to your `/mainpage` comment block. For example, this comment block in the AQtComponents's source code generates the following main page. 
+If a developer documents the API using `/mainpage`, it will replace the default introduction. However, you may still insert the table of contents by adding `o3de-doxygen-insert-table` to your `/mainpage` comment block. For example, this comment block in the AzQtComponents's source code generates the following main page. 
 
 ```
 /**
