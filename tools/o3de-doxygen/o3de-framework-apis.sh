@@ -58,6 +58,7 @@ for framework_path in `ls -1d ${FRAMEWORKS}/*/ `; do
 
     cat $main_config >> $config_file
     echo PROJECT_NAME=\"Open 3D Engine ${framework} API Reference\" >> $config_file
+    echo PROJECT_NUMBER=${PROJECT_NUMBER} >> $config_file
     echo OUTPUT_DIRECTORY=${OUTPUT_DIRECTORY} >> $config_file
     echo INPUT=${framework_path} ${index} >> $config_file
     echo HTML_OUTPUT=${framework} >> $config_file
@@ -71,3 +72,4 @@ for framework_path in `ls -1d ${FRAMEWORKS}/*/ `; do
     generate_toc "${OUTPUT_DIRECTORY}/${framework}" "${framework}"
 
 done
+
