@@ -59,7 +59,7 @@ for gem_path in `ls -1d ${GEMS}/*/`; do
     echo PROJECT_NAME=\"Open 3D Engine ${gem} Gem API Reference\" >> $config_file
     echo PROJECT_NUMBER=${PROJECT_NUMBER} >> $config_file
     echo OUTPUT_DIRECTORY=${OUTPUT_DIRECTORY} >> $config_file
-    echo INPUT=$(fd -t d -X echo {} \; -- Include ${gem_path}) $index >> $config_file
+    echo INPUT=${gem_path} $index >> $config_file
     echo HTML_OUTPUT=${gem} >> $config_file
     echo STRIP_FROM_PATH=$O3DE_PATH >> $config_file
 
@@ -69,10 +69,6 @@ for gem_path in `ls -1d ${GEMS}/*/`; do
 
     # Post-process generated files
 
-    API_PATH=build/gems/${gem}
-    API_NAME=${gem}
     generate_toc "${OUTPUT_DIRECTORY}/${gem}" "${gem}"
-done
 
-## cleanup
-rm ${index}
+done

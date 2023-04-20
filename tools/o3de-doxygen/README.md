@@ -18,31 +18,6 @@ The [Open 3D Engine (O3DE) API Reference](https://www.o3de.org/docs/api/) is gen
 2. In the `tools` directory, find the `o3de-doxygen` scripts.
 
 
-### Install rust commands
-
-The `o3de-doxygen` scripts use some efficient Rust commands for processing the source code in `o3de`. You must install Rust and the `fd-find` cargo to run the scripts properly. 
-
-
-1. Install Rust by using [rustup](https://rustup.rs/), or by running the following command in your Linux machine: 
-
-    ```shell
-    curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-    ```
-
-1. Add rust to your environment variables.
-
-    ```shell
-    source "$HOME/.cargo/env"
-    ```
-
-1. Install the `fd-find` cargo, which is a file searching tool:
-
-    ```shell
-    cargo install fd-find
-    ```
-
-
-
 ### Clean repos
 
 The C++ API reference generation scripts run Doxygen on your local `o3de` clone. These scripts output the generated files into your local `o3de.org` clone. Therefore, before you generate the API, you must ensure that your cloned repos are clean and have the latest changes.
@@ -113,8 +88,6 @@ This generates the following files in `O3DEORG_PATH`:
  - `static/docs/api/frameworks/*`
 
 ### Gems API
-
-*Note: You must [install rust commands](#install-rust-commands) to run `o3de-gem-apis.sh`.*
 
 In the `o3de-doxygen` directory, run the script:
 
