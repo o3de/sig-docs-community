@@ -1,0 +1,15 @@
+---
+extends: substitution
+ignorecase: true
+level: warning
+link: 
+message: Use '%s' rather than '%s'
+# source: "https://www.o3de.org/docs/contributing/to-docs/terminology/"
+action:
+  name: replace
+swap:
+  blacklist: blocklist
+  whitelist: allowlist
+  master(?! broker): primary|source|initiator|requester|controller|host|director|supplier
+  slave(?! broker): secondary|replica|responder|device|worker|proxy|performer|consumer
+  see: refer to
