@@ -1,0 +1,16 @@
+---
+extends: capitalization
+level: suggestion
+link: h
+match: $sentence
+message: "Use sentence-style capitalization in '%s'."
+scope: heading
+# source: ""
+indicators:
+  - ":"
+exceptions:
+  - API
+  - AWS
+  - Gem[s]
+  - sig-*
+  - SIG

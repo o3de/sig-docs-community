@@ -1,0 +1,13 @@
+---
+extends: substitution
+ignorecase: true
+level: warning
+link: 
+message: "Consider using '%s' rather than '%s' to remove ambiguity"
+# source: ""
+action:
+  name: replace
+swap:
+  should: must (for certainty) | might (for possiblity) | can (for ability)
+  just: only | simply | fair
+  once: when

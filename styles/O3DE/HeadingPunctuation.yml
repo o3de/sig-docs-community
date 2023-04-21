@@ -1,0 +1,14 @@
+---
+extends: existence
+level: warning
+link: 
+message: "Do not use end punctuation in headings."
+nonword: true
+scope: heading
+action:
+  name: edit
+  params:
+    - remove
+    - ".?!"
+tokens:
+  - '[a-z0-9][.?!](?:\s|$)'

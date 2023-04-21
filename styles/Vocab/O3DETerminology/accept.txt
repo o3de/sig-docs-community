@@ -1,0 +1,39 @@
+[Bb]indless
+[Rr]ollout
+[Ss]haders?
+[Vv]iewport
+[Mm]ips?
+[Mm]ip [Mm]aps?
+
+
+[G]ems
+sig-*
+SIG 
+
+AnimGraph
+Asset Browser
+O3DE Documentation
+O3DE
+Entity Outliner
+Asset Processor
+Material Canvas
+Material Editor
+Test Impact Analysis Framework
+TIAF
+Editor
+
+PySide
+Snap
+Linux
+OpenXR
+XR
+VR
+PhysX
+Lua
+Vulkan
+NVIDIA
+
+AzQtComponents
+AzCore
+
+GPU

@@ -1,0 +1,18 @@
+---
+extends: substitution
+ignorecase: true
+level: warning
+link: 
+message: "Consider using '%s' rather than '%s' unless updating existing content that uses the term."
+# source: ""
+action:
+  name: replace
+swap:
+  he|she: you
+  repo: repository
+  sane: accurate|valid|verified
+  tooling: tool|tools
+  e\.g\.|i\.e\.|ex: for example | such as 
+  vs: compared to | the difference between
+  etc\.: and so on
+  https://*--o3deorg.netlify.app: https://o3de.org
