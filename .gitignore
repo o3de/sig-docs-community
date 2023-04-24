@@ -1,5 +1,9 @@
 .vscode
+.DS_Store
 
-# Ignore the following files in o3de-doxygen
+# Files to ignore in o3de-doxygen
 /tools/o3de-doxygen/build/*
 /tools/o3de-doxygen/*.log
+
+# Vale packages to ignore
+/tools/vale-prose-linter/Hugo
