@@ -1,0 +1,8 @@
+extends: existence
+message: If this is the first appearance of %s in this page, use it's expanded form. For example, 'Open 3D Engine (O3DE)'.
+level: warning
+ignorecase: false
+tokens:
+  - (?:[A-Z]){2,}
+exceptions:
+# See O3DETerminology vocab for more exceptions.

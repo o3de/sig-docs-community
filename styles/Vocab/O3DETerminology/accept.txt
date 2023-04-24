@@ -12,18 +12,27 @@ SIG
 
 AnimGraph
 Asset Browser
+Atom Renderer
+Atom Sample Viewer
+Atom
+AZSL
+AZ
 O3DE Documentation
 O3DE
 Entity Outliner
 Asset Processor
 Material Canvas
 Material Editor
+RHI
+RPI
 Test Impact Analysis Framework
 TIAF
 Editor
 
+FBX
 PySide
 Snap
+JSON
 Linux
 OpenXR
 XR
@@ -32,8 +41,15 @@ PhysX
 Lua
 Vulkan
 NVIDIA
+Windows
 
 AzQtComponents
 AzCore
 
+CPU
 GPU
+API
+PC
+UI
+URL
+UX

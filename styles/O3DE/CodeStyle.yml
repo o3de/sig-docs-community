@@ -1,0 +1,6 @@
+extends: existence
+message: Use code-style format with back-ticks (`), such as `%s`.
+level: warning
+ignorecase: true
+tokens:
+    - (?<!`\w\d)o3de[A-Za-z0-9_.-]*(?!\w`) # repo names
