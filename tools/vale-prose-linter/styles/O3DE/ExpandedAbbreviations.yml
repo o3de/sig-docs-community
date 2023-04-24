@@ -1,8 +1,12 @@
-extends: existence
-message: If this is the first appearance of %s in this page, use it's expanded form. For example, 'Open 3D Engine (O3DE)'.
+---
+extends: substitution
+message: "Use expanded form %s, if this is the first appearance of %s in this page"
 level: warning
 ignorecase: false
-tokens:
-  - (?:[A-Z]){2,}
+swap:
+  - 'CLI': 'command-line interface (CLI)'
+  - 'LOD': 'level-of-detail (LOD)'
+  - 'TAA': 'temporal anti-aliasing (TAA)'
+  - '(?:[A-Z]){2,}': # Must be last, catches all abbreviations
 exceptions:
 # See O3DETerminology vocab for more exceptions.
