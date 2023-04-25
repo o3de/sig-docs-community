@@ -42,9 +42,7 @@ Check out the [calendar](https://lists.o3de.org/calendar#) for events, and view 
 
 ### Meeting Agenda
 
-**Weekly triage**: Every Wednesday, from 9:30 to 10:00 AM Pacific.
-
-**Bi-weekly meeting**: Every second and fourth Tuesday, from 10:30 to 11:30 AM Pacific.
+There is no regular meeting cadence as of April 24, 2023. 
 
 _\*Event schedules may change. For an up-to-date schedule, see the official [O3DE calendar](https://lists.o3de.org/calendar#)._
 
@@ -54,8 +52,6 @@ Join the [O3DE Discord](https://discord.com/invite/o3de) and reach out to the #s
 
 Subscribe to our [mailing list](https://lists.o3de.org/g/sig-docs-community) to get updates from D&C SIG. 
 
-Docs chair: @chanmosq#2530 (Discord)
-Community chair: @Finchy#5545 (Discord)
 
 ### Documentation release process
 
