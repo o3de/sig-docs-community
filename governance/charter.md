@@ -152,7 +152,7 @@ Each release cycle, the current SIG Chair(s) must update membership. Maintainers
 
 To request membership to  or update the team:
 
-1. File a PR to o3de/org making changes to the o3de-docs-community-sig team config here. In your PR, include the reason you're requesting access in the description, as well as a comment next to your username in the team config e.g.,   * o3deusera # Gem / PM / Docs   * somefellowb # 1.14 Core / Testing
+1. Create an issue using one of the ["nomination" templates](https://github.com/o3de/sig-docs-community/issues/new/choose). 
 2. Assign an approver from the group you'll be joining. If you are an incoming chair, request from the current lead(s).
 3. Once your request is approved by the appropriate group, you can now assign to the PR to a SIG Release Chair for final approval.
 
