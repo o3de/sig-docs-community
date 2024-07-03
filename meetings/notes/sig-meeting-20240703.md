@@ -10,6 +10,7 @@
 - First recurring meeting of revived SIG group
 - Naomi reported between meetings that Roddie has maintainer access, Shauna should have reviewer and can start going through process to gain maintainer
 - Jan Hanca (@JanHanca) of Robotec joined in and called out his PR bringing dev into parity with main
+    - Group looked at PRs since late December 2023 and found only a handful that might need added to Jan's PR
 - Reviewed repo settings to see how to lock down main so that no more commits go to it without going through dev/stabilization
 - Shauna has Hugo experience and so can easily get docs spun up locally to test Jan's PR when it's ready
 
