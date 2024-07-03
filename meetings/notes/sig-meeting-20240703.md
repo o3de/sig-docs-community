@@ -15,6 +15,11 @@
 
 ### Action items
 
-- Roddie to double-check Shauna's reviewer perms, then other maintainer perms to prune maintainers
-- Jan to update parity PR
-- Shauna to start reviewing and triaging PRs/Issues, take point reviewing Jan's PR when ready
+- Roddie
+    - double-check Shauna's reviewer perms, then other maintainer perms to prune maintainers
+    - notify sig-docs-community list and discord about process change so everyone with merge to main perms knows what's going on
+- Jan
+    - update parity PR
+- Shauna
+    -  start reviewing and triaging PRs/Issues
+    -  take point reviewing Jan's PR when ready
