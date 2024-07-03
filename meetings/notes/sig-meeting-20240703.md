@@ -3,7 +3,7 @@
 **Facilitator:** Roddie Kieley (@RoddieKieley)
 **Notes taker:** Roddie Kieley (@RoddieKieley), Shauna Gordon (@ShaunaGordon)
 
-[Agenda]()
+[Agenda](https://github.com/o3de/sig-docs-community/issues/122)
 
 ## SIG Updates
 
