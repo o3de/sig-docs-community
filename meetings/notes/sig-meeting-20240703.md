@@ -1,6 +1,6 @@
 # Docs & Community SIG meeting - YYYY-MM-DD
 
-**Facilitator:** name (gh alias, optional)
+**Facilitator:** Roddie Kieley ()
 **Notes taker:** name (gh alias, optional)
 
 [Agenda](AGENDA_ISSUE_#)
