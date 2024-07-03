@@ -27,6 +27,7 @@ O3DE cannot work without the help and input from as many of its community member
 | 2022-11-22 | [Link](https://github.com/o3de/sig-docs-community/issues/82) | [On Agenda](https://github.com/o3de/sig-docs-community/issues/82#issuecomment-1331235283) |
 | 2022-12-13 | [Link](https://github.com/o3de/sig-docs-community/issues/84) | [On Agenda](https://github.com/o3de/sig-docs-community/issues/84#issuecomment-1349869774) |
 | 2024-06-17 | [Link](https://github.com/o3de/sig-docs-community/pull/121) | Ad hoc, no prior formal agenda |
+| 2024-07-03 | [Link](https://github.com/o3de/sig-docs-community/issues/122) |
 
 
 
