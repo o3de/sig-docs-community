@@ -8,6 +8,8 @@
 ## SIG Updates
 
 - First recurring meeting of revived SIG group
+- Naomi reported between meetings that Roddie has maintainer access, Shauna should have reviewer and can start going through process to gain maintainer
+- Jan Hanca (@JanHanca) of Robotec joined in and called out his PR bringing dev into parity with main
 
 ### Open questions
 
