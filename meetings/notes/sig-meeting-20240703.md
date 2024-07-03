@@ -7,21 +7,7 @@
 
 ## SIG Updates
 
-Updates from the SIG itself. Information will be provided in advance on the agenda issue.
-
-* Summary and discussion notes as nested unordered list
-  * ...
-* ...
-
-## Agenda item 1 name
-
-[Item link](AGENDA_ISSUE_#_COMMENT)
-
-*Presenter*: presenter/team name
-
-* Summary and discussion notes as nested unordered list
-  * ...
-* ...
+- First recurring meeting of revived SIG group
 
 ### Open questions
 
