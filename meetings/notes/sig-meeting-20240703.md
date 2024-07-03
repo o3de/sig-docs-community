@@ -1,9 +1,9 @@
 # Docs & Community SIG meeting - YYYY-MM-DD
 
-**Facilitator:** Roddie Kieley ()
-**Notes taker:** name (gh alias, optional)
+**Facilitator:** Roddie Kieley (@RoddieKieley)
+**Notes taker:** Roddie Kieley (@RoddieKieley), Shauna Gordon (@ShaunaGordon)
 
-[Agenda](AGENDA_ISSUE_#)
+[Agenda]()
 
 ## SIG Updates
 
