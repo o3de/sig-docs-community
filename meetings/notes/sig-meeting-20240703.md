@@ -12,13 +12,9 @@
 - Jan Hanca (@JanHanca) of Robotec joined in and called out his PR bringing dev into parity with main
 - Reviewed repo settings to see how to lock down main so that no more commits go to it without going through dev/stabilization
 
-### Open questions
-
-* Briefly describe any remaining open questions to be created as an issue post-meeting
-* ...
 
 ### Action items
 
 - Roddie to double-check Shauna's reviewer perms, then other maintainer perms to prune maintainers
 - Jan to update parity PR
-- Shauna to start reviewing and triaging PRs/Issues
+- Shauna to start reviewing and triaging PRs/Issues, take point reviewing Jan's PR when ready
