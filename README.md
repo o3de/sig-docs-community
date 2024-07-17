@@ -42,7 +42,7 @@ Check out the [calendar](https://lists.o3de.org/calendar#) for events, and view 
 
 ### Meeting Agenda
 
-There is no regular meeting cadence as of April 24, 2023. 
+Meetings are held every other Wednesday at 11:30am Eastern, 3:30pm UTC.
 
 _\*Event schedules may change. For an up-to-date schedule, see the official [O3DE calendar](https://lists.o3de.org/calendar#)._
 
