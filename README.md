@@ -42,7 +42,9 @@ Check out the [calendar](https://lists.o3de.org/calendar#) for events, and view 
 
 ### Meeting Agenda
 
-Meetings are held every other Wednesday at 11:30am Eastern, 3:30pm UTC.
+Meetings are held every other Wednesday at 11:30am Eastern, 3:30pm UTC. 
+
+In the event a meeting conflicts with Connect or other major meeting, this one will be moved to after the conflicting one, usually pushing it back half an hour.
 
 _\*Event schedules may change. For an up-to-date schedule, see the official [O3DE calendar](https://lists.o3de.org/calendar#)._
 
