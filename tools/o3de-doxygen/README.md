@@ -7,7 +7,7 @@ The [Open 3D Engine (O3DE) API Reference](https://www.o3de.org/docs/api/) is gen
 
 * Linux machine or Windows Subsystem for Linux (WSL)
 * Clone of the `o3de` repository in your machine
-* Clone of the `o3de.org` repository in your machine
+* Clone of the `api.o3de.org` repository in your machine
 * [Doxygen](https://www.doxygen.nl/manual/install.html) installation
 
 ## Set up 
@@ -34,15 +34,15 @@ The C++ API reference generation scripts run Doxygen on your local `o3de` clone.
 
 1. Make sure the branch is clean from any untracked files or changes. The branch should be at the same state as the upstream branch's HEAD. To clean, run  `git clean`, `git reset`, or `git stash` as needed.
 
-#### `o3de.org`
+#### `api.o3de.org`
 
-1. In your local `o3de.org` clone, `git checkout` the latest updates in the `development` branch, or in the case of a major O3DE release, the `stabilization` branch. 
+1. In your local `api.o3de.org` clone, `git checkout` the latest updates in the `development` branch, or in the case of a major O3DE release, the `stabilization` branch. 
 
     ```shell
     git fetch --all
     git checkout upstream/<branch> 
     ```
-   -  **upstream**: Set to track the source repo, [`https://github.com/o3de/o3de.org.git`](https://github.com/o3de/o3de.org.git)
+   -  **upstream**: Set to track the source repo, [`https://github.com/o3de/api.o3de.org.git`](https://github.com/o3de/api.o3de.org.git)
 
 1. Create a new branch, such as `api-ref`. This branch will contain the API reference docs that you will [generate](#generate) in a later step.
 
@@ -58,7 +58,7 @@ The C++ API reference generation scripts run Doxygen on your local `o3de` clone.
 
    - `O3DE_PATH`: Path to your local o3de clone  (e.g. `O3DE_PATH=$HOME/o3de`)
 
-   - `O3DEORG_PATH`: Path to your local o3de.org clone (e.g. `O3DEORG_PATH=$HOME/o3de.org`)
+   - `O3DEORG_PATH`: Path to your local o3de.org clone (e.g. `O3DEORG_PATH=$HOME/api.o3de.org`)
    
    - `PROJECT_NUMBER`: The O3DE version of this API reference  (e.g. `PROJECT_NUMBER=23.05.0`)
 
@@ -84,8 +84,8 @@ In the `o3de-doxygen` directory, run the script:
 ```
 
 This generates the following files in `O3DEORG_PATH`: 
- - `content/docs/api/frameworks/_index.md`
- - `static/docs/api/frameworks/*`
+ - `content/frameworks/_index.md`
+ - `frameworks/*`
 
 ### Gems API
 
@@ -96,16 +96,29 @@ In the `o3de-doxygen` directory, run the script:
 ```
 
 This generates the following files in `O3DEORG_PATH`: 
-  - `content/docs/api/gems/_index.md`
-  - `static/docs/api/gems/*`
+  - `content/gems/_index.md`
+  - `gems/*`
 
 
 
 ## Publish
 
-After generating the C++ API reference and supplemental files, it's time to publish them on the website. When you [cleaned your `o3de.org` clone](#o3deorg), you set up a new clean branch, such as `api-ref`, and when you [generated](#generate) the APIs, the files were placed in that branch. 
+After generating the C++ API reference and supplemental files, it's time to publish them on the website. When you [cleaned your `api.o3de.org` clone](#o3deorg), you set up a new clean branch, such as `api-ref`, and when you [generated](#generate) the APIs, the files were placed in that branch. 
 
 To publish the newly generated APIs, you must run `git add`, `git commit`, `git push`, and create a new pull request. For guidance through each step, please refer to the [O3DE Docs Contributions: Runbook](https://www.o3de.org/docs/contributing/to-docs/git-workflow/).
+
+### Update `o3de.org`
+
+#### Automatic Update (**Recommended**)
+
+Once the API docs are merged on GitHub, Hugo needs to know about the new version. In the `o3de.org` repo, check out and clean the corresponding branch (stabilization, development, main, etc.). Then, run `hugo mod get -u github.com/o3de/api.o3de.org`. The version reference in `go.mod` should now point to the SHA of the commit to `api.o3de.org`.
+
+#### Manual Update (**Not Recommended**)
+
+> [!CAUTION]
+> Due to the risk of errors, this method should only be used when absolutely necessary. Future improvements will automate this process and remove the need for manual intervention entirely.
+
+If the main branch `api.o3de.org` has been updated beyond the version you need, it is possible to update the `go.mod` reference by hand, matching the existing format for the version. The first half of the version string is the commit date and time (`HHmmss`) in UTC, and the second half is the first 12 characters of the commit SHA. After saving the file, delete the `go.sum` file, if it exists, and run `hugo mod get` to make Hugo resync its data. Verify the update, then commit, push, and create or update the PR as needed.
 
 
 ## Generating for Gems outside of `o3de`
