@@ -30,9 +30,11 @@ O3DE cannot work without the help and input from as many of its community member
 | 2024-07-03 | [Link](https://github.com/o3de/sig-docs-community/issues/122) | [On Agenda](https://github.com/o3de/sig-docs-community/issues/122#issuecomment-2206868488) |
 | 2024-07-17 | [Link](https://github.com/o3de/sig-docs-community/issues/124) | [On Agenda](https://github.com/o3de/sig-docs-community/issues/124) |
 | 2024-08-14 | [Link](https://github.com/o3de/sig-docs-community/issues/128) | [On Agenda](https://github.com/o3de/sig-docs-community/issues/128) |
+| 2024-09-11 | N/A | [Link](notes/sig-meeting-20240911.md) |
 | 2024-09-25 | [Link](notes/sig-meeting-2024-09-25.md) | [On Agenda](https://github.com/o3de/sig-docs-community/issues/133) |
+| 2024-10-09 | [Link](https://github.com/o3de/sig-docs-community/issues/135) | [Link](notes/sig-meeting-20241009.md) |
+| 2024-11-20 | [Link](notes/sig-meeting-20241120.md) | [On Agenda](https://github.com/o3de/sig-docs-community/issues/137) |
 | 2025-01-29 | [Link](https://github.com/o3de/sig-docs-community/issues/140) | N/A |
-
 
 
 ## Pre-release meetings
