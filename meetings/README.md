@@ -34,6 +34,7 @@ O3DE cannot work without the help and input from as many of its community member
 | 2024-09-25 | [Link](notes/sig-meeting-2024-09-25.md) | [On Agenda](https://github.com/o3de/sig-docs-community/issues/133) |
 | 2024-10-09 | [Link](https://github.com/o3de/sig-docs-community/issues/135) | [Link](notes/sig-meeting-20241009.md) |
 | 2024-11-20 | [Link](notes/sig-meeting-20241120.md) | [On Agenda](https://github.com/o3de/sig-docs-community/issues/137) |
+| 2025-01-29 | [Link](https://github.com/o3de/sig-docs-community/issues/140) | N/A |
 
 
 ## Pre-release meetings
