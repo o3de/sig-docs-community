@@ -62,7 +62,7 @@ The C++ API reference generation scripts run Doxygen on your local `o3de` clone.
 
    - `O3DE_PATH`: Path to your local o3de clone  (e.g. `O3DE_PATH=$HOME/o3de`)
 
-   - `O3DEORG_PATH`: Path to your local o3de.org clone (e.g. `O3DEORG_PATH=$HOME/api.o3de.org`)
+   - `O3DEORG_PATH`: Path to your local api.o3de.org clone (e.g. `O3DEORG_PATH=$HOME/api.o3de.org`)
    
    - `PROJECT_NUMBER`: The O3DE version of this API reference  (e.g. `PROJECT_NUMBER=23.05.0`)
 
