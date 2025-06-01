@@ -40,21 +40,21 @@ The C++ API reference generation scripts run Doxygen on your local `o3de` clone.
 
 #### api.o3de.org
 
-1. In your local `api.o3de.org` clone, `git checkout` the latest updates in the `development` branch, or in the case of a major O3DE release, the `stabilization` branch. 
+1. In your local `api.o3de.org` clone, `git checkout` the latest version in the `main` branch to ensure you have the history
 
     ```shell
     git fetch --all
-    git checkout upstream/<branch> 
+    git checkout upstream/main 
     ```
    -  **upstream**: Set to track the source repo, [`https://github.com/o3de/api.o3de.org.git`](https://github.com/o3de/api.o3de.org.git)
 
-1. Create a new branch, such as `api-ref`. This branch will contain the API reference docs that you will [generate](#generate) in a later step.
+2. Create a new branch, such as `api-ref`. This branch will contain the API reference docs that you will [generate](#generate) in a later step.
 
     ```shell
     git switch -c api-ref
     ```
 
-1. Make sure the branch is clean from any untracked files or changes. The branch should be at the same state as the upstream branch's HEAD. To clean, run  `git clean`, `git reset`, or `git stash` as needed.
+3. Make sure the branch is clean from any untracked files or changes. The branch should be at the same state as the upstream branch's HEAD. To clean, run  `git clean`, `git reset`, or `git stash` as needed.
 
 ### Prepare scripts
 
