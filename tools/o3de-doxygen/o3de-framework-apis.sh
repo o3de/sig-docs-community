@@ -7,7 +7,7 @@ source  ${REL_PATH}/o3de-api-functions.sh
 source ${REL_PATH}/config.sh
 
 # Path to output generated files
-OUTPUT_DIRECTORY=${O3DEORG_PATH}/static/docs/api/frameworks  
+OUTPUT_DIRECTORY=${O3DEORG_PATH}/frameworks  
 
 # Path to source code
 FRAMEWORKS=${O3DE_PATH}/Code/Framework
@@ -16,7 +16,7 @@ FRAMEWORKS=${O3DE_PATH}/Code/Framework
 LANDING_TEMPLATE=${REL_PATH}/framework_index.md
 
 # File to output LANDING_TEMPLATE
-OUTPUT_TOC=${O3DEORG_PATH}/content/docs/api/frameworks/_index.md
+OUTPUT_TOC=${O3DEORG_PATH}/content/frameworks/_index.md
 
 echo "Create Gems API landing page (https://www.o3de.org/docs/api/frameworks/): " ${OUTPUT_TOC}
 if [ ! -e "${OUTPUT_TOC%/*}" ]; then

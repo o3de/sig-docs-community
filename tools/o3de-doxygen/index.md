@@ -1,5 +1,5 @@
 
-    Welcome to the **Open 3D Engine (O3DE)** API Reference for the **WhiteBox Gem**!
+    Welcome to the **Open 3D Engine (O3DE)** API Reference for the **XR Gem**!
 
     o3de-doxygen-insert-table
 
